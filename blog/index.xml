@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Introduction</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Introduction</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2017 21:44:46 -0700</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World!</title>
+      <link>/blog/hello-world/</link>
+      <pubDate>Tue, 01 Aug 2017 21:44:46 -0700</pubDate>
+      
+      <guid>/blog/hello-world/</guid>
+      <description>This is that obligatory hello world post that always comes with any sort of programming adventure. I&amp;rsquo;ve decided to reboot this website since the last time anything done with it was high school.
+This is also my second attempt at a blog. Eventually, I am going to port over the blog posts from my original wordpress I tried to make last year.</description>
+    </item>
+    
+  </channel>
+</rss>
