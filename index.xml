@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nam Tran</title>
-    <link>http://omn0mn0m.github.io/</link>
-    <description>Recent content on Nam Tran</description>
+    <title>Introduction</title>
+    <link>/</link>
+    <description>Recent content on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Mar 2017 13:23:28 +0800</lastBuildDate>
     
-	<atom:link href="http://omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>contact</title>
-      <link>http://omn0mn0m.github.io/contact/</link>
+      <link>/contact/</link>
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
-      <guid>http://omn0mn0m.github.io/contact/</guid>
+      <guid>/contact/</guid>
       <description>This is where you overcome your social anxiety and let people know how to reach you.
 You could try linking to your email, for instance. Just check it, okay?</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://omn0mn0m.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
       
-      <guid>http://omn0mn0m.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>This is your about me page. Use it to write up a witty and engaging description of yourself.
 You can include your hobbies, favorite foods, photos of your ex-lovers, anything you like.
 You can even include some ipsums:
