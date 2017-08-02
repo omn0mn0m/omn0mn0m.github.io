@@ -3,49 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/coffee-ipsum/</loc>
-    <lastmod>2017-03-12T11:55:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/cheese-ipsum/</loc>
-    <lastmod>2017-03-12T11:55:43+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/hipster-ipsum/</loc>
-    <lastmod>2017-03-12T11:55:32+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
+    <loc>omn0mn0m.github.io/contact/</loc>
     <lastmod>2017-03-09T13:23:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>omn0mn0m.github.io/about/</loc>
     <lastmod>2017-03-09T13:19:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2017-03-12T11:55:50+08:00</lastmod>
+    <loc>omn0mn0m.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>omn0mn0m.github.io/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2017-03-12T11:55:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>omn0mn0m.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
