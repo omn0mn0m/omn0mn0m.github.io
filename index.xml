@@ -1,51 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nam Tran</title>
-    <link>omn0mn0m.github.io/</link>
-    <description>Recent content on Nam Tran</description>
+    <title>Introduction</title>
+    <link>/</link>
+    <description>Recent content on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2017 02:22:41 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 12 Mar 2017 11:55:50 +0800</lastBuildDate>
     
-	<atom:link href="omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Travis Test</title>
-      <link>omn0mn0m.github.io/blog/travis-test/</link>
-      <pubDate>Sun, 30 Jul 2017 02:22:41 -0700</pubDate>
+      <title>Coffee Ipsum</title>
+      <link>/blog/coffee-ipsum/</link>
+      <pubDate>Sun, 12 Mar 2017 11:55:50 +0800</pubDate>
       
-      <guid>omn0mn0m.github.io/blog/travis-test/</guid>
-      <description>This is gonna be a short blog. Just tried to automate deploying this website using Travis CI.</description>
+      <guid>/blog/coffee-ipsum/</guid>
+      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong. Americano caffeine white, con panna saucer sit, con panna eu, carajillo aftertaste kopi-luwak, body aftertaste cup single origin café au lait saucer. Macchiato java sweet arabica, turkish cup, eu flavour mug extraction white cortado saucer est white brewed instant, rich, barista breve cappuccino barista organic.</description>
     </item>
     
     <item>
-      <title>Hello World</title>
-      <link>omn0mn0m.github.io/blog/hello-world/</link>
-      <pubDate>Sat, 29 Jul 2017 16:54:48 -0700</pubDate>
+      <title>Cheese Ipsum</title>
+      <link>/blog/cheese-ipsum/</link>
+      <pubDate>Sun, 12 Mar 2017 11:55:43 +0800</pubDate>
       
-      <guid>omn0mn0m.github.io/blog/hello-world/</guid>
-      <description>This is the first post in my redesign of my portfolio website. I am trying out Hugo for my static gen.
-Wish me luck!</description>
+      <guid>/blog/cheese-ipsum/</guid>
+      <description>Cow dolcelatte cheese and biscuits. Pepper jack caerphilly stilton cottage cheese airedale lancashire fromage frais chalk and cheese. Bocconcini fromage frais camembert de normandie fromage frais brie squirty cheese fromage frais fromage. Boursin boursin bocconcini stilton the big cheese cheese triangles pepper jack fromage. Croque monsieur.
+$ complicated techie code git bash ubuntu &amp;gt;&amp;gt;&amp;gt; return value init foo  Squirty cheese goat brie. Cheddar cheese triangles cheese strings camembert de normandie edam cow brie jarlsberg.</description>
+    </item>
+    
+    <item>
+      <title>Hipster Ipsum</title>
+      <link>/blog/hipster-ipsum/</link>
+      <pubDate>Sun, 12 Mar 2017 11:55:32 +0800</pubDate>
+      
+      <guid>/blog/hipster-ipsum/</guid>
+      <description>Occupy mlkshk kale chips woke, listicle locavore next level fingerstache glossier aesthetic man braid before they sold out kitsch prism. Cred copper mug freegan, flannel YOLO single-origin coffee skateboard artisan four loko church-key man bun. Synth literally gastropub, kombucha chillwave helvetica offal truffaut church-key freegan pop-up gentrify narwhal. Kombucha viral vexillologist green juice. Slow-carb hoodie mumblecore tumeric tattooed meditation, lo-fi fap cred affogato forage whatever austin. Shabby chic direct trade migas, brunch gochujang sriracha chambray fanny pack 8-bit mustache letterpress.</description>
     </item>
     
     <item>
       <title>contact</title>
-      <link>omn0mn0m.github.io/contact/</link>
+      <link>/contact/</link>
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
-      <guid>omn0mn0m.github.io/contact/</guid>
+      <guid>/contact/</guid>
       <description>This is where you overcome your social anxiety and let people know how to reach you.
 You could try linking to your email, for instance. Just check it, okay?</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>omn0mn0m.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
       
-      <guid>omn0mn0m.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>This is your about me page. Use it to write up a witty and engaging description of yourself.
 You can include your hobbies, favorite foods, photos of your ex-lovers, anything you like.
 You can even include some ipsums:
