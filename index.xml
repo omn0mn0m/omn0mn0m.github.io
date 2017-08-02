@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction</title>
-    <link>/</link>
+    <link>http://omn0mn0m.github.io/</link>
     <description>Recent content on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Aug 2017 21:44:46 -0700</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World!</title>
-      <link>/blog/hello-world/</link>
+      <link>http://omn0mn0m.github.io/blog/hello-world/</link>
       <pubDate>Tue, 01 Aug 2017 21:44:46 -0700</pubDate>
       
-      <guid>/blog/hello-world/</guid>
+      <guid>http://omn0mn0m.github.io/blog/hello-world/</guid>
       <description>This is that obligatory hello world post that always comes with any sort of programming adventure. I&amp;rsquo;ve decided to reboot this website since the last time anything done with it was high school.
 This is also my second attempt at a blog. Eventually, I am going to port over the blog posts from my original wordpress I tried to make last year.</description>
     </item>
     
     <item>
       <title>contact</title>
-      <link>/contact/</link>
+      <link>http://omn0mn0m.github.io/contact/</link>
       <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>http://omn0mn0m.github.io/contact/</guid>
       <description>This is where you overcome your social anxiety and let people know how to reach you.
 You could try linking to your email, for instance. Just check it, okay?</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>/about/</link>
+      <link>http://omn0mn0m.github.io/about/</link>
       <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://omn0mn0m.github.io/about/</guid>
       <description>This is your about me page. Use it to write up a witty and engaging description of yourself.
 You can include your hobbies, favorite foods, photos of your ex-lovers, anything you like.
 You can even include some ipsums:
