@@ -3,33 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://omn0mn0m.github.io/post/travis-test/</loc>
+    <loc>omn0mn0m.github.io/blog/travis-test/</loc>
     <lastmod>2017-07-30T02:22:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://omn0mn0m.github.io/post/hello-world/</loc>
+    <loc>omn0mn0m.github.io/blog/hello-world/</loc>
     <lastmod>2017-07-29T16:54:48-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://omn0mn0m.github.io/</loc>
-    <lastmod>2017-07-30T02:22:41-07:00</lastmod>
+    <loc>omn0mn0m.github.io/contact/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://omn0mn0m.github.io/categories/</loc>
+    <loc>omn0mn0m.github.io/about/</loc>
+    <lastmod>2017-03-09T13:19:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>omn0mn0m.github.io/blog/</loc>
+    <lastmod>2017-07-30T02:22:41-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://omn0mn0m.github.io/post/</loc>
+    <loc>omn0mn0m.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>omn0mn0m.github.io/</loc>
     <lastmod>2017-07-30T02:22:41-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://omn0mn0m.github.io/tags/</loc>
+    <loc>omn0mn0m.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

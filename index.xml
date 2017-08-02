@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nam Tran (omn0mn0m)</title>
-    <link>http://omn0mn0m.github.io/</link>
-    <description>Recent content on Nam Tran (omn0mn0m)</description>
+    <title>Nam Tran</title>
+    <link>omn0mn0m.github.io/</link>
+    <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jul 2017 02:22:41 -0700</lastBuildDate>
     
-	<atom:link href="http://omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Travis Test</title>
-      <link>http://omn0mn0m.github.io/post/travis-test/</link>
+      <link>omn0mn0m.github.io/blog/travis-test/</link>
       <pubDate>Sun, 30 Jul 2017 02:22:41 -0700</pubDate>
       
-      <guid>http://omn0mn0m.github.io/post/travis-test/</guid>
+      <guid>omn0mn0m.github.io/blog/travis-test/</guid>
       <description>This is gonna be a short blog. Just tried to automate deploying this website using Travis CI.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://omn0mn0m.github.io/post/hello-world/</link>
+      <link>omn0mn0m.github.io/blog/hello-world/</link>
       <pubDate>Sat, 29 Jul 2017 16:54:48 -0700</pubDate>
       
-      <guid>http://omn0mn0m.github.io/post/hello-world/</guid>
+      <guid>omn0mn0m.github.io/blog/hello-world/</guid>
       <description>This is the first post in my redesign of my portfolio website. I am trying out Hugo for my static gen.
 Wish me luck!</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>omn0mn0m.github.io/contact/</link>
+      <pubDate>Thu, 09 Mar 2017 13:23:28 +0800</pubDate>
+      
+      <guid>omn0mn0m.github.io/contact/</guid>
+      <description>This is where you overcome your social anxiety and let people know how to reach you.
+You could try linking to your email, for instance. Just check it, okay?</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>omn0mn0m.github.io/about/</link>
+      <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
+      
+      <guid>omn0mn0m.github.io/about/</guid>
+      <description>This is your about me page. Use it to write up a witty and engaging description of yourself.
+You can include your hobbies, favorite foods, photos of your ex-lovers, anything you like.
+You can even include some ipsums:
+Cat ipsum dolor sit amet, i cry and cry and cry unless you pet me, and then maybe i cry just for fun Gate keepers of hell for flop over sniff other cat&amp;rsquo;s butt and hang jaw half open thereafter.</description>
     </item>
     
   </channel>
