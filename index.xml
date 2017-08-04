@@ -42,5 +42,15 @@ Some of my areas of interest include embedded control systems, digital design, a
 I was previously control systems lead for my college&amp;rsquo;s robotics team, and am now co-president of the team.</description>
     </item>
     
+    <item>
+      <title>First Blog, An Explanation</title>
+      <link>/blog/first-blog-an-explanation/</link>
+      <pubDate>Wed, 21 Sep 2016 07:25:46 -0700</pubDate>
+      
+      <guid>/blog/first-blog-an-explanation/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+I have begun to write code in Emacs, and compile from a command line. As this is my first blog entry, I should explain why I chose such a masochistic path. I only ever took one technology course ever. It was &amp;ldquo;Introduction to Computer Science&amp;rdquo; and was taken purely to fulfill a high school graduation requirement.</description>
+    </item>
+    
   </channel>
 </rss>
