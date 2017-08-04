@@ -22,11 +22,82 @@ This is also my second attempt at a blog. Eventually, I am going to port over th
     </item>
     
     <item>
-      <title>First Blog, An Explanation</title>
-      <link>/blog/first-blog-an-explanation/</link>
+      <title>WordPress: Can&#39;t Sleep Due to a Cup of Java</title>
+      <link>/blog/wordpress-cant-sleep-due-to-a-cup-of-java/</link>
+      <pubDate>Tue, 18 Oct 2016 09:56:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-cant-sleep-due-to-a-cup-of-java/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+Honestly, I was sleeping just fine until a dream woke me up. In this dream, I was going my merry way, until all of a sudden I had to write a robot in Java. Those of you that read my first blog post will know that I started really programming in FRC and I used Java for that.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: Git With The Program!</title>
+      <link>/blog/wordpress-git-with-the-program/</link>
+      <pubDate>Tue, 11 Oct 2016 07:02:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-git-with-the-program/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+I forgot how annoying Git and GitHub can be sometimes&amp;hellip; It has been years since I have last had a major problem, and most of the time it could all be fixed with a simple re-cloning of the project. This time was different.
+I attempted to make a simple website for my university&amp;rsquo;s robotics team, more for fun than for any useful reason.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: Suddenly... It was 2:50 AM</title>
+      <link>/blog/wordpress-suddenly...-it-was-250-am/</link>
+      <pubDate>Wed, 05 Oct 2016 10:06:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-suddenly...-it-was-250-am/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+I spent my free time today studying either for my Physics II midterm or going through Learn Python the Hard Way. I went to bed, content with my progress. When I woke up around midnight, I thought &amp;ldquo;Maybe I should do a few more Python exercises.&amp;rdquo; I just looked at the clock and wow did time go by.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: First Blog, An Explanation</title>
+      <link>/blog/wordpress-first-blog-an-explanation/</link>
+      <pubDate>Fri, 30 Sep 2016 18:37:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-first-blog-an-explanation/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+I looked at some PowerPoints I made in 2014 today from when I was getting really into showing new robotics members how to program&amp;hellip; After going back and learning how to program with some guidance from textbooks and websites, I realised that I tried teaching way too fast. I am on exercise 11 of Learn Python the Hard Way, and I am still at printing strings.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: First Blog, An Explanation</title>
+      <link>/blog/wordpress-first-blog-an-explanation/</link>
+      <pubDate>Thu, 29 Sep 2016 07:15:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-first-blog-an-explanation/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+After two midterm exams, I am back in the swing of things and learning more. After Codecademy reset my Python progress to make way for their new curriculum, I switched over to learning through Learn Python the Hard Way. As I already know a lot of Python, I am simply going over these guides as a way to further my understanding in any way possible, as well as get acclimated to using Emacs, which is my text editor of choice for this adventure.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: Motherf***ing Snakes on This Motherf***ing Plane</title>
+      <link>/blog/wordpress-motherfing-snakes-on-this-motherfing-plane/</link>
+      <pubDate>Thu, 22 Sep 2016 07:08:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-motherfing-snakes-on-this-motherfing-plane/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+I took a break from Java (as I am already very familiar with the language) to take a look at some Python today. As I am not familiar with Python in any sense, I decided to take a crash course in Python through codecademy.com. From there, the plane was to find a pdf of a Python textbook and start to read through it a bit at a time.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: Hello Java, My Old Friend</title>
+      <link>/blog/wordpress-hello-java-my-old-friend/</link>
+      <pubDate>Wed, 21 Sep 2016 08:25:46 -0700</pubDate>
+      
+      <guid>/blog/wordpress-hello-java-my-old-friend/</guid>
+      <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
+Today, I wrote a basic &amp;ldquo;Hello World&amp;rdquo; program in Java (almost 3 years since the first time). I am using Bash on Ubuntu on Windows, Command Prompt, and Powershell for all my programming needs. While that does not seem difficult, it took me almost one hour from start to finish. The first of my issues began when I could not remember how to save in Emacs.</description>
+    </item>
+    
+    <item>
+      <title>WordPress: First Blog, An Explanation</title>
+      <link>/blog/wordpress-first-blog-an-explanation/</link>
       <pubDate>Wed, 21 Sep 2016 07:25:46 -0700</pubDate>
       
-      <guid>/blog/first-blog-an-explanation/</guid>
+      <guid>/blog/wordpress-first-blog-an-explanation/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 I have begun to write code in Emacs, and compile from a command line. As this is my first blog entry, I should explain why I chose such a masochistic path. I only ever took one technology course ever. It was &amp;ldquo;Introduction to Computer Science&amp;rdquo; and was taken purely to fulfill a high school graduation requirement.</description>
     </item>
