@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/hello-knitting-not-world/</loc>
+    <lastmod>2017-09-12T04:55:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/hello-world/</loc>
     <lastmod>2017-08-01T21:44:46-07:00</lastmod>
   </url>
@@ -59,7 +64,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2017-08-01T21:44:46-07:00</lastmod>
+    <lastmod>2017-09-12T04:55:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,8 +74,14 @@
   </url>
   
   <url>
+    <loc>/categories/knitting/</loc>
+    <lastmod>2017-09-12T04:55:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-08-01T21:44:46-07:00</lastmod>
+    <lastmod>2017-09-12T04:55:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
