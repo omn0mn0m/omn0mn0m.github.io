@@ -6,10 +6,20 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Sep 2017 04:55:46 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Oct 2017 15:44:46 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Week with a 3D Printer</title>
+      <link>/blog/a-week-with-a-3d-printer/</link>
+      <pubDate>Mon, 16 Oct 2017 15:44:46 +0000</pubDate>
+      
+      <guid>/blog/a-week-with-a-3d-printer/</guid>
+      <description>Following the lead of some of my friends at college, I bought an Anet A8. For those of you who are not familiar with the Anet A8, it is a 3D printer kit that costs approximately $150. How does it get this cheap? By being an okay printer that requires hours of work to be functional.
+Over my fall break, I built the printer over the course of 24 hours with many breaks in between.</description>
+    </item>
     
     <item>
       <title>Hello Knitting (Not World)!</title>
