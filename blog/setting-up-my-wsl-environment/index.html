@@ -40,7 +40,7 @@
 
 
     
-    <link rel="stylesheet" href="/css/dark-style.css?t=1508867287">
+    <link rel="stylesheet" href="/css/dark-style.css?t=1508869452">
     
 
 
@@ -157,24 +157,36 @@ ga('send', 'pageview');
     <div class="container markdown  fade-in two  top-pad">
         <p>Microsoft&rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.</p>
 
-<p>One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:
-1. Install <a href="https://sourceforge.net/projects/vcxsrv/">vcxsrv</a>
-2. Launch it from the Start menu and leave it running</p>
+<p>One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:</p>
 
-<p>Then, I had to set up WSL and Ubuntu by doing the following:
-1. Enable WSL from &ldquo;Turn Windows Features on or off&rdquo;
-2. Download <a href="https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6">Ubuntu</a> from Windows Store
-3. Run it for the first time. Enter username and password</p>
+<ol>
+<li>Install <a href="https://sourceforge.net/projects/vcxsrv/">vcxsrv</a></li>
+<li>Launch it from the Start menu and leave it running</li>
+</ol>
 
-<p>As is, Ubuntu will only be able to open programs in the terminal and not as a GUI. To do that, I had to do the following steps:
-1. <code>nano ~/.bashrc</code>
-2. eWrite <code>xport 0:0</code> at the end of the file</p>
+<p>Then, I had to set up WSL and Ubuntu by doing the following:</p>
 
-<p>That is all for the basic installation of Ubuntu and WSL. These are additional steps I took to set up my personal development environment. It will install Emacs (with my .emacs.d), Git, GCC, and TexLive.
-1. <code>sudo add-apt-repository ppa:kelleyk/emacs</code>
-2. <code>sudo apt-get update</code>
-3. <code>sudo apt-get install git gcc emacs texlive-full</code>
-4. <code>git clone https://github.com/omn0mn0m/.emacs.d.git --recursive</code></p>
+<ol>
+<li>Enable WSL from &ldquo;Turn Windows Features on or off&rdquo;</li>
+<li>Download <a href="https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6">Ubuntu</a> from Windows Store</li>
+<li>Run it for the first time. Enter username and password</li>
+</ol>
+
+<p>As is, Ubuntu will only be able to open programs in the terminal and not as a GUI. To do that, I had to do the following steps:</p>
+
+<ol>
+<li><code>nano ~/.bashrc</code></li>
+<li>Write <code>export 0:0</code> at the end of the file</li>
+</ol>
+
+<p>That is all for the basic installation of Ubuntu and WSL. These are additional steps I took to set up my personal development environment. It will install Emacs (with my .emacs.d), Git, GCC, and TexLive.</p>
+
+<ol>
+<li><code>sudo add-apt-repository ppa:kelleyk/emacs</code></li>
+<li><code>sudo apt-get update</code></li>
+<li><code>sudo apt-get install git gcc emacs texlive-full</code></li>
+<li><code>git clone https://github.com/omn0mn0m/.emacs.d.git --recursive</code></li>
+</ol>
 
 <p>I hope that this blog post will help with getting up and running with your own WSL environment. For a list of Linux packages and their compatibility with WSL, you can check out <a href="https://github.com/ethanhs/WSL-Programs">this repo</a>.</p>
 
