@@ -14,10 +14,10 @@
 <title>
 
 
-     Hello Knitting (Not World)! 
+     Setting Up My WSL Environment 
 
 </title>
-<link rel="canonical" href="/blog/hello-knitting-not-world/">
+<link rel="canonical" href="/blog/setting-up-my-wsl-environment/">
 
 
 
@@ -120,31 +120,31 @@ ga('send', 'pageview');
     </div>
 
     <div class="container  fade-in two ">
-        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/hello-knitting-not-world/">Hello Knitting (Not World)!</a></h2>
+        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/setting-up-my-wsl-environment/">Setting Up My WSL Environment</a></h2>
             <div class="post-data">
-                Sep 12, 2017 |
-                1 minute read
+                Oct 24, 2017 |
+                2 minutes read
             </div>
 
             
                 <div class="blog-share">
                 Share this:
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Hello%20Knitting%20%28Not%20World%29%21%20%2fblog%2fhello-knitting-not-world%2f"
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Setting%20Up%20My%20WSL%20Environment%20%2fblog%2fsetting-up-my-wsl-environment%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fhello-knitting-not-world%2f"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fsetting-up-my-wsl-environment%2f"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-facebook"></i>
                 <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fhello-knitting-not-world%2f&amp;description=Hello%20Knitting%20%28Not%20World%29%21"
+                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fsetting-up-my-wsl-environment%2f&amp;description=Setting%20Up%20My%20WSL%20Environment"
                 onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
                 <i class="fa fa-pinterest"></i>
                 <span class="hidden">Pinterest</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fhello-knitting-not-world%2f"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fsetting-up-my-wsl-environment%2f"
                 onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                 <i class="fa fa-linkedin"></i>
                 <span class="hidden">Google+</span>
@@ -155,11 +155,30 @@ ga('send', 'pageview');
     </div>
 
     <div class="container markdown  fade-in two  top-pad">
-        <p>I know this is a mostly technical blog, but I just wanted to say that I have taken knitting back up. I recently went home for my girlfriend&rsquo;s birthday, and she wanted to have arts and crafts time with me. I told her that I used to know how to knit, so we went to Jo-Ann&rsquo;s and bought one skein of yarn and 5mm needles.</p>
+        <p>Microsoft&rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.</p>
 
-<p>I&rsquo;m starting to realise that knitting is a pretty intricate craft if one wants it to be. I have since joined <a href="http://www.ravelry.com/">Ravelry</a> to better organise my hobby.</p>
+<p>One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:
+1. Install <a href="https://sourceforge.net/projects/vcxsrv/">vcxsrv</a>
+2. Launch it from the Start menu and leave it running</p>
 
-<p>So far I have made one little garter stitch swatch. I am hoping to have a small stockinette swatch done by the end of this weekend.</p>
+<p>Then, I had to set up WSL and Ubuntu by doing the following:
+1. Enable WSL from &ldquo;Turn Windows Features on or off&rdquo;
+2. Download <a href="https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6">Ubuntu</a> from Windows Store
+3. Run it for the first time. Enter username and password</p>
+
+<p>As is, Ubuntu will only be able to open programs in the terminal and not as a GUI. To do that, I had to do the following steps:
+1. <code>nano ~/.bashrc</code>
+2. eWrite <code>xport 0:0</code> at the end of the file</p>
+
+<p>That is all for the basic installation of Ubuntu and WSL. These are additional steps I took to set up my personal development environment. It will install Emacs (with my .emacs.d), Git, GCC, and TexLive.
+1. <code>sudo add-apt-repository ppa:kelleyk/emacs</code>
+2. <code>sudo apt-get update</code>
+3. <code>sudo apt-get install git gcc emacs texlive-full</code>
+4. <code>git clone https://github.com/omn0mn0m/.emacs.d.git --recursive</code></p>
+
+<p>I hope that this blog post will help with getting up and running with your own WSL environment. For a list of Linux packages and their compatibility with WSL, you can check out <a href="https://github.com/ethanhs/WSL-Programs">this repo</a>.</p>
+
+<p>NOTE: I was not able to get a full desktop environment working. When I figure that out, I will post it here.</p>
 
     </div>
 
@@ -188,7 +207,7 @@ ga('send', 'pageview');
 
 <div class="container has-text-centered top-pad">
 <hr>
-<a href="/blog/hello-knitting-not-world/#top"><i class="fa fa-arrow-up"></i></a>
+<a href="/blog/setting-up-my-wsl-environment/#top"><i class="fa fa-arrow-up"></i></a>
 <hr>
 </div>
 
@@ -204,7 +223,7 @@ ga('send', 'pageview');
 
 
 <script>
-$('a[href^="\/blog\/hello-knitting-not-world\/#"]').click(function(e) {
+$('a[href^="\/blog\/setting-up-my-wsl-environment\/#"]').click(function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

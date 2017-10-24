@@ -6,10 +6,20 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Oct 2017 15:44:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Oct 2017 20:44:46 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting Up My WSL Environment</title>
+      <link>/blog/setting-up-my-wsl-environment/</link>
+      <pubDate>Tue, 24 Oct 2017 20:44:46 -0700</pubDate>
+      
+      <guid>/blog/setting-up-my-wsl-environment/</guid>
+      <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
+One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL: 1.</description>
+    </item>
     
     <item>
       <title>A Week with a 3D Printer</title>
