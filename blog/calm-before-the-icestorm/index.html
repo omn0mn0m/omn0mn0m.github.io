@@ -14,10 +14,10 @@
 <title>
 
 
-     WordPress: Suddenly... It was 2:50 AM 
+     Calm Before The Icestorm 
 
 </title>
-<link rel="canonical" href="/blog/wordpress-suddenly...-it-was-250-am/">
+<link rel="canonical" href="/blog/calm-before-the-icestorm/">
 
 
 
@@ -40,7 +40,7 @@
 
 
     
-    <link rel="stylesheet" href="/css/dark-style.css?t=1513126085">
+    <link rel="stylesheet" href="/css/dark-style.css?t=1513126084">
     
 
 
@@ -120,31 +120,31 @@ ga('send', 'pageview');
     </div>
 
     <div class="container  fade-in two ">
-        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/wordpress-suddenly...-it-was-250-am/">WordPress: Suddenly... It was 2:50 AM</a></h2>
+        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/calm-before-the-icestorm/">Calm Before The Icestorm</a></h2>
             <div class="post-data">
-                Oct 5, 2016 |
-                1 minute read
+                Dec 12, 2017 |
+                2 minutes read
             </div>
 
             
                 <div class="blog-share">
                 Share this:
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20WordPress%3a%20Suddenly...%20It%20was%202%3a50%20AM%20%2fblog%2fwordpress-suddenly...-it-was-250-am%2f"
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Calm%20Before%20The%20Icestorm%20%2fblog%2fcalm-before-the-icestorm%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fwordpress-suddenly...-it-was-250-am%2f"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fcalm-before-the-icestorm%2f"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-facebook"></i>
                 <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fwordpress-suddenly...-it-was-250-am%2f&amp;description=WordPress%3a%20Suddenly...%20It%20was%202%3a50%20AM"
+                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fcalm-before-the-icestorm%2f&amp;description=Calm%20Before%20The%20Icestorm"
                 onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
                 <i class="fa fa-pinterest"></i>
                 <span class="hidden">Pinterest</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fwordpress-suddenly...-it-was-250-am%2f"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fcalm-before-the-icestorm%2f"
                 onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                 <i class="fa fa-linkedin"></i>
                 <span class="hidden">Google+</span>
@@ -155,13 +155,45 @@ ga('send', 'pageview');
     </div>
 
     <div class="container markdown  fade-in two  top-pad">
-        <p><em>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.</em></p>
+        <p>I have a deep love for field-programmable gate arrays (FPGA). They are both versatile and efficient when designed correctly, and we are able to do most things a microcontroller can but faster. This is achieved by designing a logic circuit that is implemented on the FPGA, rather than running sequential instructions like with a microprocessor on a microcontroller. This allows for better parallelised implementations.</p>
 
-<p>I spent my free time today studying either for my Physics II midterm or going through <a href="https://learnpythonthehardway.org/">Learn Python the Hard Way</a>. I went to bed, content with my progress. When I woke up around midnight, I thought &ldquo;Maybe I should do a few more Python exercises.&rdquo; I just looked at the clock and wow did time go by.</p>
+<p>That being said, they are not exactly the most friendly in terms of skills needed or the availability of tools. Xilinx, one of the largest FPGA manufacturers, has some amazing tools available for making digital designs for their chips. They just also happen to be behind a paywall if you&rsquo;re using anything other than their most common consumer chips.</p>
 
-<p>In other news, though, I have kind of figured out how to do multiple windows in Emacs. You make two windows by using C-x 2. Then you can switch between windows using C-x o. To make the current window the only open one, use C-x 1. To kill a buffer, use C-x k. To open a buffer, use C-x b [name of buffer].</p>
+<p><center>
 
-<p>I also learned that M-x shell and M-x term can be used to open up a shell in Emacs, so now I don&rsquo;t have to have multiple terminals open. I am slowly working my way up the Emacs learning curve&hellip;</p>
+<figure >
+    
+        <img src="/img/posts/icestick-lattice.png" />
+    
+    
+    <figcaption>
+        <h4>The Lattice ICEstick, a $25 FPGA</h4>
+        
+    </figcaption>
+    
+</figure>
+
+</center></p>
+
+<p>There is one project out there, <a href="http://www.clifford.at/icestorm/">Project Icestorm</a>, that attempts to reverse-engineer and provide &ldquo;a fully open source Verilog-to-Bitstream flow&rdquo;. This project targets Lattice Semiconductor&rsquo;s iCE40 FPGAs. As a supporter of free and open-source software, I am all for this.</p>
+
+<p><center>
+
+<figure >
+    
+        <img src="/img/posts/upduino-lattice.png#center" />
+    
+    
+    <figcaption>
+        <h4>The Gnarly Grey UPDuino, an $8 FPGA</h4>
+        
+    </figcaption>
+    
+</figure>
+
+</center></p>
+
+<p>Over the next few months, I will be purchasing an FPGA development board with a Lattice iCE40 (they are actually rather cheap) and trying to write a few useful applications for it. The two boards I am considering are the <a href="http://www.latticesemi.com/icestick">iCEstick</a> and the <a href="http://www.latticesemi.com/en/Products/DevelopmentBoardsAndKits/GnarlyGreyUPDuinoBoard.aspx">UPDuino</a>. Most importantly, I will be trying to use Project Icestorm for my FPGA toolchain and getting it to run in WSL. As I progress, I will be uploading tutorials and spotlights of my projects.</p>
 
     </div>
 
@@ -190,7 +222,7 @@ ga('send', 'pageview');
 
 <div class="container has-text-centered top-pad">
 <hr>
-<a href="/blog/wordpress-suddenly...-it-was-250-am/#top"><i class="fa fa-arrow-up"></i></a>
+<a href="/blog/calm-before-the-icestorm/#top"><i class="fa fa-arrow-up"></i></a>
 <hr>
 </div>
 
@@ -206,7 +238,7 @@ ga('send', 'pageview');
 
 
 <script>
-$('a[href^="\/blog\/wordpress-suddenly...-it-was-250-am\/#"]').click(function(e) {
+$('a[href^="\/blog\/calm-before-the-icestorm\/#"]').click(function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({

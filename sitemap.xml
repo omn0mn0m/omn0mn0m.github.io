@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/calm-before-the-icestorm/</loc>
+    <lastmod>2017-12-12T03:29:14-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/setting-up-my-wsl-environment/</loc>
     <lastmod>2017-10-24T20:44:46-07:00</lastmod>
   </url>
@@ -74,7 +79,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2017-10-24T20:44:46-07:00</lastmod>
+    <lastmod>2017-12-12T03:29:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,7 +96,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-10-24T20:44:46-07:00</lastmod>
+    <lastmod>2017-12-12T03:29:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   

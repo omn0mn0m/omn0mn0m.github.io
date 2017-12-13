@@ -6,10 +6,20 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Oct 2017 20:44:46 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 12 Dec 2017 03:29:14 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Calm Before The Icestorm</title>
+      <link>/blog/calm-before-the-icestorm/</link>
+      <pubDate>Tue, 12 Dec 2017 03:29:14 -0500</pubDate>
+      
+      <guid>/blog/calm-before-the-icestorm/</guid>
+      <description>I have a deep love for field-programmable gate arrays (FPGA). They are both versatile and efficient when designed correctly, and we are able to do most things a microcontroller can but faster. This is achieved by designing a logic circuit that is implemented on the FPGA, rather than running sequential instructions like with a microprocessor on a microcontroller. This allows for better parallelised implementations.
+That being said, they are not exactly the most friendly in terms of skills needed or the availability of tools.</description>
+    </item>
     
     <item>
       <title>Setting Up My WSL Environment</title>
