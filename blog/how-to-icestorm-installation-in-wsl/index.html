@@ -40,7 +40,7 @@
 
 
     
-    <link rel="stylesheet" href="/css/dark-style.css?t=1518706682">
+    <link rel="stylesheet" href="/css/dark-style.css?t=1518707686">
     
 
 
@@ -168,17 +168,17 @@ ga('send', 'pageview');
 <pre><code class="language-bash">sudo apt-get install build-essential clang bison flex libreadline-dev \
                      gawk tcl-dev libffi-dev git mercurial graphviz   \
                      xdot pkg-config python python3 libftdi-dev
-``
+</code></pre>
 
-While the command above is noted for Ubuntu 14.04, everythings still works fine with Ubuntu 16.04 (version default with WSL). The command should execute without any errors.
+<p>While the command above is noted for Ubuntu 14.04, everythings still works fine with Ubuntu 16.04 (version default with WSL). The command should execute without any errors.</p>
 
-## Installing Icestorm Tools
-These tools are the main design tools for Project Icestorm.
+<h2 id="installing-icestorm-tools">Installing Icestorm Tools</h2>
 
-The command is copied and pasted from the Project Icestorm website:
+<p>These tools are the main design tools for Project Icestorm.</p>
 
-```bash
-git clone https://github.com/cliffordwolf/icestorm.git icestorm
+<p>The command is copied and pasted from the Project Icestorm website:</p>
+
+<pre><code class="language-bash">git clone https://github.com/cliffordwolf/icestorm.git icestorm
 cd icestorm
 make -j$(nproc)
 sudo make install
@@ -218,16 +218,9 @@ sudo make install
 
 <p>For simulations, I used Icarus Verilog. At first, I tried to use Yosys, but came across issues because Yosys only implements the synthesisable language features of Verilog. For viewing the output file, I open the file in GTKWave.</p>
 
-<p>To install Icarus Verilog, run the following commands.</p>
+<p>To install Icarus Verilog, run the following command: <code>sudo apt-get install iverilog</code></p>
 
-<pre><code class="language-bash">sudo apt-get install iverilog
-
-</code></pre>
-
-<p>To install GTKWave, run the following command.</p>
-
-<pre><code class="language-bash">sudo apt-get install gtkwave
-</code></pre>
+<p>To install GTKWave, run the following command: <code>sudo apt-get install gtkwave</code></p>
 
 <p>To run GTKWave, just type <code>gtkwave</code> in the shell and import your waveform through the GUI.</p>
 
