@@ -6,10 +6,20 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Dec 2017 03:29:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jan 2018 04:36:27 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How-To: Icestorm Installation in WSL</title>
+      <link>/blog/how-to-icestorm-installation-in-wsl/</link>
+      <pubDate>Fri, 05 Jan 2018 04:36:27 -0500</pubDate>
+      
+      <guid>/blog/how-to-icestorm-installation-in-wsl/</guid>
+      <description>As mentioned in my previous post, I will be spending some time to explore using the open-source Project Icestorm toolchain in the Windows Linux Subsystem (WSL). This is how I was able to set up the tools on my computer, prior to any testing on an actual FPGA board&amp;hellip; I am still waiting to purchase one.
+These instructions are based on those listed under &amp;ldquo;Where are the Tools? How to Install?</description>
+    </item>
     
     <item>
       <title>Calm Before The Icestorm</title>
