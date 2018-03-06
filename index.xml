@@ -38,7 +38,7 @@ That being said, they are not exactly the most friendly in terms of skills neede
       
       <guid>/blog/setting-up-my-wsl-environment/</guid>
       <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
-One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:</description>
+Installing X11 Server One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:</description>
     </item>
     
     <item>
