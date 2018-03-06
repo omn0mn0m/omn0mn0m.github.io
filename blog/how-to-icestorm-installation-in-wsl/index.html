@@ -40,7 +40,7 @@
 
 
     
-    <link rel="stylesheet" href="/css/dark-style.css?t=1520315024">
+    <link rel="stylesheet" href="/css/dark-style.css?t=1520349313">
     
 
 
@@ -223,6 +223,18 @@ sudo make install
 <p>To install GTKWave, run the following command: <code>sudo apt-get install gtkwave</code></p>
 
 <p>To run GTKWave, just type <code>gtkwave</code> in the shell and import your waveform through the GUI.</p>
+
+<h2 id="getting-a-template">Getting a Template</h2>
+
+<p>For now, clone my template project in a directory and run it.</p>
+
+<pre><code class="language-bash">git clone https://github.com/omn0mn0m/FPGA-Icestorm-Template.git
+cd FPGA-Icestorm-Template
+make
+make sim
+</code></pre>
+
+<p>If everything worked out, the synthesis and place-and-route should have worked without error. You should also be seeing a GTKWave window that you can add waveforms to.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
