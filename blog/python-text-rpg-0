@@ -25,6 +25,7 @@ Here are some commands to get you started:
 You need to install the following software for this tutorial series to get started. We'll add more software as it all becomes relevant.
 
 - Git: `sudo apt-get install git`
+- Make: `sudo apt-get install build-essential`
 - Pip: `sudo apt-get install python-pip`
 
 Most Linux distros come with Python already installed.
