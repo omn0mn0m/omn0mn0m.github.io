@@ -18,6 +18,7 @@ Here are some commands to get you started:
 - `cd type/a/directory/here`: Changes directory to the one you specify
 - `ls`: Prints the contents of your current directory
 - `mkdir`: Makes a directory
+- `touch file-to.create`: Creates an empty file
 - `rm file-to.delete`: Deletes the file you specify. You can delete entire folders like: `rm -r type/a/directory/here`.
 
 ## Installing Some Software
@@ -42,14 +43,24 @@ Don't copy and paste the above command, type it out and fill in the areas where 
 You should now have a directory on your computer named the same as your GitHub repo name.
 
 ## Setting Up An Incomplete Project Skeleton
-First, change your directory to your git repo you just made.
+First, change your directory to your git repo you just made. The following is an adaptation of [this structure guide](https://docs.python-guide.org/writing/structure/#further-reading).
 
 Next, you need to make the following directories:
 - docs
 - dungeoncrawler2
 - tests
 
-That's it for this first tutorial. Next tutorial, we'll be finishing the project skeleton and setting up our development environment!
+Now make the following files:
+- setup.py
+- requirements.txt
+- Makefile
+- dungeoncrawler2/__init__.py
+- dungeoncrawler2/dungeoncrawler2.py
+- docs/conf.py
+- docs/index.rst
+- tests/test_dungeoncrawler2.py
+
+That's it for this first tutorial. Next tutorial, we'll be filling in the files in our project skeleton and setting up our development environment!
 
 ### Cheats
 - Changing directory to your git repo: `cd <TYPE YOUR REPO NAME HERE>`
