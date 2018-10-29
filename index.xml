@@ -6,17 +6,28 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Aug 2018 16:45:46 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 16:45:46 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>[Python Text RPG #0] Setting Up Shop</title>
-      <link>/blog/python-text-rpg-#0-setting-up-shop/</link>
+      <title>[Python Text RPG 1] Making the Python Boilerplate</title>
+      <link>/blog/python-text-rpg-1-making-the-python-boilerplate/</link>
+      <pubDate>Tue, 28 Aug 2018 16:45:46 -0400</pubDate>
+      
+      <guid>/blog/python-text-rpg-1-making-the-python-boilerplate/</guid>
+      <description>Continuing from the previous tutorial, we&amp;rsquo;ll now be filling out skeleton files and getting ready to start writing code.
+Writing Files For the sake of time, we are going to copy-and-paste a lot in this tutorial. A short explanation of what is going on in each file will also be included.
+setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages with open(&#39;README&#39;) as f: readme = f.read() with open(&#39;LICENSE&#39;) as f: license = f.</description>
+    </item>
+    
+    <item>
+      <title>[Python Text RPG 0] Setting Up Shop</title>
+      <link>/blog/python-text-rpg-0-setting-up-shop/</link>
       <pubDate>Mon, 27 Aug 2018 16:45:46 -0400</pubDate>
       
-      <guid>/blog/python-text-rpg-#0-setting-up-shop/</guid>
+      <guid>/blog/python-text-rpg-0-setting-up-shop/</guid>
       <description>When I first taught myself how to program, the first project suggested to me was to make a text-based RPG from scratch (no third-party libraries). At the time, I was learning Java so I could program my school&amp;rsquo;s FRC robot so naturally the RPG was written in Java. The goal of this blog mini-series is to make yet another text-based RPG, but now in Python. For this tutorial series, I&amp;rsquo;ll be saying what to do, then show what I typed at the end if I think you can figure it out.</description>
     </item>
     

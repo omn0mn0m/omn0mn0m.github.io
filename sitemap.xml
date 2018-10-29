@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/python-text-rpg-#0-setting-up-shop/</loc>
+    <loc>/blog/python-text-rpg-1-making-the-python-boilerplate/</loc>
+    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/python-text-rpg-0-setting-up-shop/</loc>
     <lastmod>2018-08-27T16:45:46-04:00</lastmod>
   </url>
   
@@ -89,7 +94,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-08-27T16:45:46-04:00</lastmod>
+    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,13 +111,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-27T16:45:46-04:00</lastmod>
+    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/python/</loc>
-    <lastmod>2018-08-27T16:45:46-04:00</lastmod>
+    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -123,7 +128,7 @@
   
   <url>
     <loc>/categories/tutorial/</loc>
-    <lastmod>2018-08-27T16:45:46-04:00</lastmod>
+    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   

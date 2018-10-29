@@ -14,10 +14,10 @@
 <title>
 
 
-     WordPress: Suddenly... It was 2:50 AM 
+     [Python Text RPG 1] Making the Python Boilerplate 
 
 </title>
-<link rel="canonical" href="/blog/wordpress-suddenly...-it-was-250-am/">
+<link rel="canonical" href="/blog/python-text-rpg-1-making-the-python-boilerplate/">
 
 
 
@@ -124,31 +124,31 @@ if (!doNotTrack) {
     </div>
 
     <div class="container  fade-in two ">
-        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/wordpress-suddenly...-it-was-250-am/">WordPress: Suddenly... It was 2:50 AM</a></h2>
+        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/python-text-rpg-1-making-the-python-boilerplate/">[Python Text RPG 1] Making the Python Boilerplate</a></h2>
             <div class="post-data">
-                Oct 5, 2016 |
-                1 minute read
+                Aug 28, 2018 |
+                2 minutes read
             </div>
 
             
                 <div class="blog-share">
                 Share this:
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20WordPress%3a%20Suddenly...%20It%20was%202%3a50%20AM%20%2fblog%2fwordpress-suddenly...-it-was-250-am%2f"
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20%5bPython%20Text%20RPG%201%5d%20Making%20the%20Python%20Boilerplate%20%2fblog%2fpython-text-rpg-1-making-the-python-boilerplate%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fwordpress-suddenly...-it-was-250-am%2f"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fpython-text-rpg-1-making-the-python-boilerplate%2f"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-facebook"></i>
                 <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fwordpress-suddenly...-it-was-250-am%2f&amp;description=WordPress%3a%20Suddenly...%20It%20was%202%3a50%20AM"
+                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fpython-text-rpg-1-making-the-python-boilerplate%2f&amp;description=%5bPython%20Text%20RPG%201%5d%20Making%20the%20Python%20Boilerplate"
                 onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
                 <i class="fa fa-pinterest"></i>
                 <span class="hidden">Pinterest</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fwordpress-suddenly...-it-was-250-am%2f"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fpython-text-rpg-1-making-the-python-boilerplate%2f"
                 onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                 <i class="fa fa-linkedin"></i>
                 <span class="hidden">Google+</span>
@@ -159,13 +159,66 @@ if (!doNotTrack) {
     </div>
 
     <div class="container markdown  fade-in two  top-pad">
-        <p><em>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.</em></p>
+        
 
-<p>I spent my free time today studying either for my Physics II midterm or going through <a href="https://learnpythonthehardway.org/">Learn Python the Hard Way</a>. I went to bed, content with my progress. When I woke up around midnight, I thought &ldquo;Maybe I should do a few more Python exercises.&rdquo; I just looked at the clock and wow did time go by.</p>
+<p>Continuing from the previous tutorial, we&rsquo;ll now be filling out skeleton files and getting ready to start writing code.</p>
 
-<p>In other news, though, I have kind of figured out how to do multiple windows in Emacs. You make two windows by using C-x 2. Then you can switch between windows using C-x o. To make the current window the only open one, use C-x 1. To kill a buffer, use C-x k. To open a buffer, use C-x b [name of buffer].</p>
+<h2 id="writing-files">Writing Files</h2>
 
-<p>I also learned that M-x shell and M-x term can be used to open up a shell in Emacs, so now I don&rsquo;t have to have multiple terminals open. I am slowly working my way up the Emacs learning curve&hellip;</p>
+<p>For the sake of time, we are going to copy-and-paste a lot in this tutorial. A short explanation of what is going on in each file will also be included.</p>
+
+<h3 id="setup-py">setup.py</h3>
+
+<pre><code class="language-python"># -*- coding: utf-8 -*-
+
+from setuptools import setup, find_packages
+
+
+with open('README') as f:
+    readme = f.read()
+
+with open('LICENSE') as f:
+    license = f.read()
+
+setup(
+    name='dungeoncrawler2',
+    version='0.1.0',
+    description='A text-based RPG written in Python 3',
+    long_description=readme,
+    author='Nam Tran',
+    author_email='tranngocnam97@gmail.com',
+    url='https://github.com/omn0mn0m/Dungeon-Crawler-2',
+    license=license,
+    packages=find_packages(exclude=('tests', 'docs'))
+)
+</code></pre>
+
+<h3 id="makefile">Makefile</h3>
+
+<pre><code>init:
+	pip3 install -r requirements.txt
+
+test:
+	python3 -m pytest --cov=dungeoncrawler2
+
+.PHONY: init test
+</code></pre>
+
+<p>Now would be a good time to note that I use pip3 and python3 in my Makefile. If you only have Python 3 installed, you can use pip and python, respectively.</p>
+
+<h2 id="setting-up-virtualenv">Setting Up virtualenv</h2>
+
+<p>virtualenv is a Python package for creating isolated development environments for each Python project you are working on. To use it, first you have to install it: <code>pip3 install virtualenv</code></p>
+
+<p>Now within your project root directory, type <code>virtualenv -p /usr/bin/python3.6 venv</code></p>
+
+<p>From now on, any time you want to program you need to first run <code>source venv/bin/activate</code> in your project root. When you are done with the virtual environment, run <code>deactivate</code></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>What we have completed is created most of the environment necessary for starting to write our code. You should be good to commit and push everything to GitHub.</p>
+
+<p>If you have been paying close attention, you should have noticed we haven&rsquo;t done anything to the docs directory. That&rsquo;s for a later tutorial. For now, we just set up the files necessary to start coding. In next tutorial, we&rsquo;ll start writing some Python!</p>
 
     </div>
 
@@ -194,7 +247,7 @@ if (!doNotTrack) {
 
 <div class="container has-text-centered top-pad">
 <hr>
-<a href="/blog/wordpress-suddenly...-it-was-250-am/#top"><i class="fa fa-arrow-up"></i></a>
+<a href="/blog/python-text-rpg-1-making-the-python-boilerplate/#top"><i class="fa fa-arrow-up"></i></a>
 <hr>
 </div>
 
@@ -210,7 +263,7 @@ if (!doNotTrack) {
 
 
 <script>
-$('a[href^="\/blog\/wordpress-suddenly...-it-was-250-am\/#"]').click(function(e) {
+$('a[href^="\/blog\/python-text-rpg-1-making-the-python-boilerplate\/#"]').click(function(e) {
     e.preventDefault();
     var target = this.hash;
     $('html, body').animate({
