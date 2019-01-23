@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Trying to do the typing thing...">
+<title>
+How-To: Icestorm Installation in WSL - Nam Tran
+</title>
+
+
+
+        <meta property="og:title" content="How-To: Icestorm Installation in WSL - Nam Tran" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Trying to do the typing thing..."/>
+<meta property="og:url" content="https://omn0mn0m.github.io/blog/howto-icestorm-installation/"/>
+<meta property="og:site_name" content="Nam Tran"/>
+
+
+
+
+<meta property="og:image" content="https://omn0mn0m.github.io/home/profile.jpg"/>
+
+
+
+
+        
+<link rel="shortcut icon" href="https://omn0mn0m.github.io/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="https://omn0mn0m.github.io/css/main.min.8cd6e972f12906c2d19917d7fd5d1de3c32d67ace6a8da5b2856f34ebbdb74ca.css" integrity="sha256-jNbpcvEpBsLRmRfX/V0d48MtZ6zmqNpbKFbzTrvbdMo=" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+    <h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="https://omn0mn0m.github.io/">main</a>
+            
+
+            
+            
+            
+            <a class="navbar-item" href="/#about">About</a>
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="https://omn0mn0m.github.io/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+
+            
+            
+            
+            
+            <a class="navbar-item" href="https://omn0mn0m.github.io/blog/">
+                
+                Back to Blog
+                
+            </a>
+            
+            
+            
+
+            
+            
+            <a class="navbar-item" href="/#contact">Contact</a>
+            
+            
+
+            
+            
+            
+
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+    <div class="container">
+        <h2 class="title is-1 top-pad strong-post-title">
+            <a href="https://omn0mn0m.github.io/blog/howto-icestorm-installation/">How-To: Icestorm Installation in WSL</a>
+        </h2>
+        <div class="post-data">
+            Jan 5, 2018 |
+            3 minutes read
+        </div>
+        
+        <div class="blog-share">
+            Share this:
+            
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20How-To%3a%20Icestorm%20Installation%20in%20WSL%20https%3a%2f%2fomn0mn0m.github.io%2fblog%2fhowto-icestorm-installation%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+            
+            
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fomn0mn0m.github.io%2fblog%2fhowto-icestorm-installation%2f"  onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fab fa-facebook-f"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+            
+            
+            <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fomn0mn0m.github.io%2fblog%2fhowto-icestorm-installation%2f&amp;description=How-To%3a%20Icestorm%20Installation%20in%20WSL" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+                <i class="fab fa-pinterest-p"></i>
+                <span class="hidden">Pinterest</span>
+            </a>
+            
+            
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fomn0mn0m.github.io%2fblog%2fhowto-icestorm-installation%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <i class="fab fa-google-plus-g"></i>
+                <span class="hidden">Google+</span>
+            </a>
+            
+        </div>
+        
+        
+    </div>
+    
+    <div class="container markdown top-pad">
+        
+
+<p>As mentioned in my <a href="/blog/calm-before-the-icestorm/">previous post</a>, I will be spending some time to explore using the open-source <a href="http://www.clifford.at/icestorm/">Project Icestorm</a> toolchain in the Windows Linux Subsystem (WSL). This is how I was able to set up the tools on my computer, prior to any testing on an actual FPGA board&hellip; I am still waiting to purchase one.</p>
+
+<p>These instructions are based on those listed under &ldquo;Where are the Tools? How to Install?&rdquo; on the Project Icestorm website. I am writing this blog post as I am installing the tools so that they are as accurate as possible.</p>
+
+<h2 id="installing-prerequisites">Installing Prerequisites</h2>
+
+<p>First, I installed all the Ubuntu prerequisites using the command mentioned in the installation instructions.</p>
+
+<pre><code class="language-bash">sudo apt-get install build-essential clang bison flex libreadline-dev \
+                     gawk tcl-dev libffi-dev git mercurial graphviz   \
+                     xdot pkg-config python python3 libftdi-dev
+</code></pre>
+
+<p>While the command above is noted for Ubuntu 14.04, everythings still works fine with Ubuntu 16.04 (version default with WSL). The command should execute without any errors.</p>
+
+<h2 id="installing-icestorm-tools">Installing Icestorm Tools</h2>
+
+<p>These tools are the main design tools for Project Icestorm.</p>
+
+<p>The command is copied and pasted from the Project Icestorm website:</p>
+
+<pre><code class="language-bash">git clone https://github.com/cliffordwolf/icestorm.git icestorm
+cd icestorm
+make -j$(nproc)
+sudo make install
+</code></pre>
+
+<p>This also seems to work without any issues.</p>
+
+<h2 id="installing-yosys">Installing Yosys</h2>
+
+<p>This is the synthesis tool for Project Icestorm, and only is compatible with Verilog. The synthesis process converts the hardware-description language (Verilog) into a gate-level netlist. Yosys is meant for Verilog, but there is a VHDL front-end <a href="https://github.com/cliffordwolf/yosys-plugins/tree/master/vhdl">available</a>. I may try to tackle installing it in the future, as I have become more comfortable with VHDL than Verilog.</p>
+
+<p>Like last time, we used the command from the Project Icestorm website:</p>
+
+<pre><code class="language-bash">git clone https://github.com/cliffordwolf/yosys.git yosys
+cd yosys
+make -j$(nproc)
+sudo make install
+</code></pre>
+
+<p>Once again, there seems to be no issues. Things are looking promising.</p>
+
+<h2 id="installing-arachne-pnr">Installing Arachne-PNR</h2>
+
+<p>This is the place-and-route tool for Project Icestorm. In FPGA design, place-and-route describes the process of converting a design into its implementation.</p>
+
+<p>This should be no surprise: Run the command from the Project Icestorm website.</p>
+
+<pre><code class="language-bash">git clone https://github.com/cseed/arachne-pnr.git arachne-pnr
+cd arachne-pnr
+make -j$(nproc)
+sudo make install
+</code></pre>
+
+<p>At the end of the day, everything built correctly.</p>
+
+<h2 id="installing-simulation-tools">Installing Simulation Tools</h2>
+
+<p>For simulations, I used Icarus Verilog. At first, I tried to use Yosys, but came across issues because Yosys only implements the synthesisable language features of Verilog. For viewing the output file, I open the file in GTKWave.</p>
+
+<p>To install Icarus Verilog, run the following command: <code>sudo apt-get install iverilog</code></p>
+
+<p>To install GTKWave, run the following command: <code>sudo apt-get install gtkwave</code></p>
+
+<p>To run GTKWave, just type <code>gtkwave</code> in the shell and import your waveform through the GUI.</p>
+
+<h2 id="getting-a-template">Getting a Template</h2>
+
+<p>For now, clone my template project in a directory and run it.</p>
+
+<pre><code class="language-bash">git clone https://github.com/omn0mn0m/FPGA-Icestorm-Template.git
+cd FPGA-Icestorm-Template
+make
+make sim
+</code></pre>
+
+<p>If everything worked out, the synthesis and place-and-route should have worked without error. You should also be seeing a GTKWave window that you can add waveforms to.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>After installing the Project Icestorm tools, it seems to be a painless and easy-to-do process. Without any sort of FPGA to test with, I am unable to determine if the tools have installed correctly. Hopefully this blog post will help build the confidence of someone who does and happens to be developing in WSL.</p>
+
+    </div>
+    
+    <div class="disqus">
+        
+    </div>
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        Copyright 2019 Nam Tran | <a href="https://github.com/vickylai/hugo-theme-introduction/">Introduction</a> theme for Hugo.
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://omn0mn0m.github.io/js/bundle.4229c9bc1dddc27515d2b0e92ace2b52a5cf30b00aaccf4cf2b9d83ba5d69cc7.js" integrity="sha256-QinJvB3dwnUV0rDpKs4rUqXPMLAKrM9M8rnYO6XWnMc="></script>
+
+
+
+        
+        
+        
+        
+    </body>
+</html>

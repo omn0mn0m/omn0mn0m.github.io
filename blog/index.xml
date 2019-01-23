@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Nam Tran</title>
-    <link>/blog/</link>
-    <description>Recent content in Blogs on Nam Tran</description>
+    <title>Blog on Nam Tran</title>
+    <link>https://omn0mn0m.github.io/blog/</link>
+    <description>Recent content in Blog on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Tue, 28 Aug 2018 16:45:46 -0400</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://omn0mn0m.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[Python Text RPG 1] Making the Python Boilerplate</title>
-      <link>/blog/python-text-rpg-1-making-the-python-boilerplate/</link>
+      <link>https://omn0mn0m.github.io/blog/python-text-rpg-1/</link>
       <pubDate>Tue, 28 Aug 2018 16:45:46 -0400</pubDate>
       
-      <guid>/blog/python-text-rpg-1-making-the-python-boilerplate/</guid>
+      <guid>https://omn0mn0m.github.io/blog/python-text-rpg-1/</guid>
       <description>Continuing from the previous tutorial, we&amp;rsquo;ll now be filling out skeleton files and getting ready to start writing code.
 Writing Files For the sake of time, we are going to copy-and-paste a lot in this tutorial. A short explanation of what is going on in each file will also be included.
 setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages with open(&#39;README&#39;) as f: readme = f.read() with open(&#39;LICENSE&#39;) as f: license = f.</description>
@@ -24,89 +24,89 @@ setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages wit
     
     <item>
       <title>[Python Text RPG 0] Setting Up Shop</title>
-      <link>/blog/python-text-rpg-0-setting-up-shop/</link>
+      <link>https://omn0mn0m.github.io/blog/python-text-rpg-0/</link>
       <pubDate>Mon, 27 Aug 2018 16:45:46 -0400</pubDate>
       
-      <guid>/blog/python-text-rpg-0-setting-up-shop/</guid>
+      <guid>https://omn0mn0m.github.io/blog/python-text-rpg-0/</guid>
       <description>When I first taught myself how to program, the first project suggested to me was to make a text-based RPG from scratch (no third-party libraries). At the time, I was learning Java so I could program my school&amp;rsquo;s FRC robot so naturally the RPG was written in Java. The goal of this blog mini-series is to make yet another text-based RPG, but now in Python. For this tutorial series, I&amp;rsquo;ll be saying what to do, then show what I typed at the end if I think you can figure it out.</description>
     </item>
     
     <item>
       <title>How-To: Icestorm Installation in WSL</title>
-      <link>/blog/how-to-icestorm-installation-in-wsl/</link>
+      <link>https://omn0mn0m.github.io/blog/howto-icestorm-installation/</link>
       <pubDate>Fri, 05 Jan 2018 04:36:27 -0500</pubDate>
       
-      <guid>/blog/how-to-icestorm-installation-in-wsl/</guid>
+      <guid>https://omn0mn0m.github.io/blog/howto-icestorm-installation/</guid>
       <description>As mentioned in my previous post, I will be spending some time to explore using the open-source Project Icestorm toolchain in the Windows Linux Subsystem (WSL). This is how I was able to set up the tools on my computer, prior to any testing on an actual FPGA board&amp;hellip; I am still waiting to purchase one.
 These instructions are based on those listed under &amp;ldquo;Where are the Tools? How to Install?</description>
     </item>
     
     <item>
       <title>Calm Before The Icestorm</title>
-      <link>/blog/calm-before-the-icestorm/</link>
+      <link>https://omn0mn0m.github.io/blog/calm-before-the-icestorm/</link>
       <pubDate>Tue, 12 Dec 2017 03:29:14 -0500</pubDate>
       
-      <guid>/blog/calm-before-the-icestorm/</guid>
+      <guid>https://omn0mn0m.github.io/blog/calm-before-the-icestorm/</guid>
       <description>I have a deep love for field-programmable gate arrays (FPGA). They are both versatile and efficient when designed correctly, and we are able to do most things a microcontroller can but faster. This is achieved by designing a logic circuit that is implemented on the FPGA, rather than running sequential instructions like with a microprocessor on a microcontroller. This allows for better parallelised implementations.
 That being said, they are not exactly the most friendly in terms of skills needed or the availability of tools.</description>
     </item>
     
     <item>
       <title>Setting Up My WSL Environment</title>
-      <link>/blog/setting-up-my-wsl-environment/</link>
+      <link>https://omn0mn0m.github.io/blog/wsl/</link>
       <pubDate>Tue, 24 Oct 2017 20:44:46 -0700</pubDate>
       
-      <guid>/blog/setting-up-my-wsl-environment/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wsl/</guid>
       <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
 Installing X11 Server One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:</description>
     </item>
     
     <item>
       <title>A Week with a 3D Printer</title>
-      <link>/blog/a-week-with-a-3d-printer/</link>
+      <link>https://omn0mn0m.github.io/blog/printer-1/</link>
       <pubDate>Mon, 16 Oct 2017 15:44:46 +0000</pubDate>
       
-      <guid>/blog/a-week-with-a-3d-printer/</guid>
+      <guid>https://omn0mn0m.github.io/blog/printer-1/</guid>
       <description>Following the lead of some of my friends at college, I bought an Anet A8. For those of you who are not familiar with the Anet A8, it is a 3D printer kit that costs approximately $150. How does it get this cheap? By being an okay printer that requires hours of work to be functional.
 Over my fall break, I built the printer over the course of 24 hours with many breaks in between.</description>
     </item>
     
     <item>
       <title>Hello Knitting (Not World)!</title>
-      <link>/blog/hello-knitting-not-world/</link>
+      <link>https://omn0mn0m.github.io/blog/hello-knitting/</link>
       <pubDate>Tue, 12 Sep 2017 04:55:46 -0400</pubDate>
       
-      <guid>/blog/hello-knitting-not-world/</guid>
+      <guid>https://omn0mn0m.github.io/blog/hello-knitting/</guid>
       <description>I know this is a mostly technical blog, but I just wanted to say that I have taken knitting back up. I recently went home for my girlfriend&amp;rsquo;s birthday, and she wanted to have arts and crafts time with me. I told her that I used to know how to knit, so we went to Jo-Ann&amp;rsquo;s and bought one skein of yarn and 5mm needles.
 I&amp;rsquo;m starting to realise that knitting is a pretty intricate craft if one wants it to be.</description>
     </item>
     
     <item>
       <title>Hello World!</title>
-      <link>/blog/hello-world/</link>
+      <link>https://omn0mn0m.github.io/blog/hello-world/</link>
       <pubDate>Tue, 01 Aug 2017 21:44:46 -0700</pubDate>
       
-      <guid>/blog/hello-world/</guid>
+      <guid>https://omn0mn0m.github.io/blog/hello-world/</guid>
       <description>This is that obligatory hello world post that always comes with any sort of programming adventure. I&amp;rsquo;ve decided to reboot this website since the last time anything done with it was high school.
 This is also my second attempt at a blog. Eventually, I am going to port over the blog posts from my original wordpress I tried to make last year.</description>
     </item>
     
     <item>
       <title>WordPress: Can&#39;t Sleep Due to a Cup of Java</title>
-      <link>/blog/wordpress-cant-sleep-due-to-a-cup-of-java/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-8/</link>
       <pubDate>Tue, 18 Oct 2016 09:56:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-cant-sleep-due-to-a-cup-of-java/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-8/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 Honestly, I was sleeping just fine until a dream woke me up. In this dream, I was going my merry way, until all of a sudden I had to write a robot in Java. Those of you that read my first blog post will know that I started really programming in FRC and I used Java for that.</description>
     </item>
     
     <item>
       <title>WordPress: Git With The Program!</title>
-      <link>/blog/wordpress-git-with-the-program/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-7/</link>
       <pubDate>Tue, 11 Oct 2016 07:02:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-git-with-the-program/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-7/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 I forgot how annoying Git and GitHub can be sometimes&amp;hellip; It has been years since I have last had a major problem, and most of the time it could all be fixed with a simple re-cloning of the project. This time was different.
 I attempted to make a simple website for my university&amp;rsquo;s robotics team, more for fun than for any useful reason.</description>
@@ -114,60 +114,60 @@ I attempted to make a simple website for my university&amp;rsquo;s robotics team
     
     <item>
       <title>WordPress: Suddenly... It was 2:50 AM</title>
-      <link>/blog/wordpress-suddenly...-it-was-250-am/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-6/</link>
       <pubDate>Wed, 05 Oct 2016 10:06:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-suddenly...-it-was-250-am/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-6/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 I spent my free time today studying either for my Physics II midterm or going through Learn Python the Hard Way. I went to bed, content with my progress. When I woke up around midnight, I thought &amp;ldquo;Maybe I should do a few more Python exercises.&amp;rdquo; I just looked at the clock and wow did time go by.</description>
     </item>
     
     <item>
       <title>WordPress: First Blog, An Explanation</title>
-      <link>/blog/wordpress-first-blog-an-explanation/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-5/</link>
       <pubDate>Fri, 30 Sep 2016 18:37:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-first-blog-an-explanation/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-5/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 I looked at some PowerPoints I made in 2014 today from when I was getting really into showing new robotics members how to program&amp;hellip; After going back and learning how to program with some guidance from textbooks and websites, I realised that I tried teaching way too fast. I am on exercise 11 of Learn Python the Hard Way, and I am still at printing strings.</description>
     </item>
     
     <item>
       <title>WordPress: First Blog, An Explanation</title>
-      <link>/blog/wordpress-first-blog-an-explanation/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-4/</link>
       <pubDate>Thu, 29 Sep 2016 07:15:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-first-blog-an-explanation/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-4/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 After two midterm exams, I am back in the swing of things and learning more. After Codecademy reset my Python progress to make way for their new curriculum, I switched over to learning through Learn Python the Hard Way. As I already know a lot of Python, I am simply going over these guides as a way to further my understanding in any way possible, as well as get acclimated to using Emacs, which is my text editor of choice for this adventure.</description>
     </item>
     
     <item>
       <title>WordPress: Motherf***ing Snakes on This Motherf***ing Plane</title>
-      <link>/blog/wordpress-motherfing-snakes-on-this-motherfing-plane/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-3/</link>
       <pubDate>Thu, 22 Sep 2016 07:08:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-motherfing-snakes-on-this-motherfing-plane/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-3/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 I took a break from Java (as I am already very familiar with the language) to take a look at some Python today. As I am not familiar with Python in any sense, I decided to take a crash course in Python through codecademy.com. From there, the plane was to find a pdf of a Python textbook and start to read through it a bit at a time.</description>
     </item>
     
     <item>
       <title>WordPress: Hello Java, My Old Friend</title>
-      <link>/blog/wordpress-hello-java-my-old-friend/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-2/</link>
       <pubDate>Wed, 21 Sep 2016 08:25:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-hello-java-my-old-friend/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-2/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 Today, I wrote a basic &amp;ldquo;Hello World&amp;rdquo; program in Java (almost 3 years since the first time). I am using Bash on Ubuntu on Windows, Command Prompt, and Powershell for all my programming needs. While that does not seem difficult, it took me almost one hour from start to finish. The first of my issues began when I could not remember how to save in Emacs.</description>
     </item>
     
     <item>
       <title>WordPress: First Blog, An Explanation</title>
-      <link>/blog/wordpress-first-blog-an-explanation/</link>
+      <link>https://omn0mn0m.github.io/blog/wordpress-1/</link>
       <pubDate>Wed, 21 Sep 2016 07:25:46 -0700</pubDate>
       
-      <guid>/blog/wordpress-first-blog-an-explanation/</guid>
+      <guid>https://omn0mn0m.github.io/blog/wordpress-1/</guid>
       <description>EDIT: This blog post comes unedited from my (now nonexistent) Wordpress blog. Pictures have not been included, however.
 I have begun to write code in Emacs, and compile from a command line. As this is my first blog entry, I should explain why I chose such a masochistic path. I only ever took one technology course ever. It was &amp;ldquo;Introduction to Computer Science&amp;rdquo; and was taken purely to fulfill a high school graduation requirement.</description>
     </item>

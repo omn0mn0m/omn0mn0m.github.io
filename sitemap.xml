@@ -3,132 +3,114 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/python-text-rpg-1-making-the-python-boilerplate/</loc>
+    <loc>https://omn0mn0m.github.io/projects/jarvis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/projects/hacki-hacki/</loc>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/projects/robot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/blog/python-text-rpg-1/</loc>
     <lastmod>2018-08-28T16:45:46-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/python-text-rpg-0-setting-up-shop/</loc>
+    <loc>https://omn0mn0m.github.io/blog/python-text-rpg-0/</loc>
     <lastmod>2018-08-27T16:45:46-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/how-to-icestorm-installation-in-wsl/</loc>
+    <loc>https://omn0mn0m.github.io/blog/howto-icestorm-installation/</loc>
     <lastmod>2018-01-05T04:36:27-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/calm-before-the-icestorm/</loc>
+    <loc>https://omn0mn0m.github.io/blog/calm-before-the-icestorm/</loc>
     <lastmod>2017-12-12T03:29:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/setting-up-my-wsl-environment/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wsl/</loc>
     <lastmod>2017-10-24T20:44:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/a-week-with-a-3d-printer/</loc>
+    <loc>https://omn0mn0m.github.io/blog/printer-1/</loc>
     <lastmod>2017-10-16T15:44:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/hello-knitting-not-world/</loc>
+    <loc>https://omn0mn0m.github.io/blog/hello-knitting/</loc>
     <lastmod>2017-09-12T04:55:46-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/hello-world/</loc>
+    <loc>https://omn0mn0m.github.io/blog/hello-world/</loc>
     <lastmod>2017-08-01T21:44:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact/</loc>
-    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2017-03-09T13:19:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/wordpress-cant-sleep-due-to-a-cup-of-java/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-8/</loc>
     <lastmod>2016-10-18T09:56:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-git-with-the-program/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-7/</loc>
     <lastmod>2016-10-11T07:02:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-suddenly...-it-was-250-am/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-6/</loc>
     <lastmod>2016-10-05T10:06:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-first-blog-an-explanation/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-5/</loc>
     <lastmod>2016-09-30T18:37:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-first-blog-an-explanation/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-4/</loc>
     <lastmod>2016-09-29T07:15:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-motherfing-snakes-on-this-motherfing-plane/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-3/</loc>
     <lastmod>2016-09-22T07:08:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-hello-java-my-old-friend/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-2/</loc>
     <lastmod>2016-09-21T08:25:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/wordpress-first-blog-an-explanation/</loc>
+    <loc>https://omn0mn0m.github.io/blog/wordpress-1/</loc>
     <lastmod>2016-09-21T07:25:46-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://omn0mn0m.github.io/blog/</loc>
+    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/</loc>
     <lastmod>2018-08-28T16:45:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
+    <loc>https://omn0mn0m.github.io/projects/</loc>
   </url>
   
   <url>
-    <loc>/categories/knitting/</loc>
-    <lastmod>2017-09-12T04:55:46-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/python/</loc>
-    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/tutorial/</loc>
-    <lastmod>2018-08-28T16:45:46-04:00</lastmod>
+    <loc>https://omn0mn0m.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
