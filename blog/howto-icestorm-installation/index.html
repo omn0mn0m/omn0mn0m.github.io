@@ -184,13 +184,16 @@ How-To: Icestorm Installation in WSL - Nam Tran
 
 <p>These instructions are based on those listed under &ldquo;Where are the Tools? How to Install?&rdquo; on the Project Icestorm website. I am writing this blog post as I am installing the tools so that they are as accurate as possible.</p>
 
+<p>EDIT 01-23-19: Replaced Arachne-PNR installation instructions with NextPNR.</p>
+
 <h2 id="installing-prerequisites">Installing Prerequisites</h2>
 
 <p>First, I installed all the Ubuntu prerequisites using the command mentioned in the installation instructions.</p>
 
-<pre><code class="language-bash">sudo apt-get install build-essential clang bison flex libreadline-dev \
+<pre><code class="language-bash">sudo apt-get install build-essential clang cmake bison flex libreadline-dev \
                      gawk tcl-dev libffi-dev git mercurial graphviz   \
-                     xdot pkg-config python python3 libftdi-dev
+                     xdot pkg-config python python3 libftdi-dev \
+                     qt5-default python3-dev libboost-all-dev
 </code></pre>
 
 <p>While the command above is noted for Ubuntu 14.04, everythings still works fine with Ubuntu 16.04 (version default with WSL). The command should execute without any errors.</p>
@@ -223,19 +226,20 @@ sudo make install
 
 <p>Once again, there seems to be no issues. Things are looking promising.</p>
 
-<h2 id="installing-arachne-pnr">Installing Arachne-PNR</h2>
+<h2 id="installing-nextpnr">Installing NextPNR</h2>
 
-<p>This is the place-and-route tool for Project Icestorm. In FPGA design, place-and-route describes the process of converting a design into its implementation.</p>
+<p>This is the new place-and-route tool for Project Icestorm, replacing Arachne-PNR. In FPGA design, place-and-route describes the process of converting a design into its implementation.</p>
 
 <p>This should be no surprise: Run the command from the Project Icestorm website.</p>
 
-<pre><code class="language-bash">git clone https://github.com/cseed/arachne-pnr.git arachne-pnr
-cd arachne-pnr
+<pre><code class="language-bash">git clone https://github.com/YosysHQ/nextpnr nextpnr
+cd nextpnr
+cmake -DARCH=ice40 -DCMAKE_INSTALL_PREFIX=/usr/local .
 make -j$(nproc)
 sudo make install
 </code></pre>
 
-<p>At the end of the day, everything built correctly.</p>
+<p>There are a few dependencies needed to successfully build NextPNR that I was missing. After installing them, everything built correctly. These were included in the pre-requisite command.</p>
 
 <h2 id="installing-simulation-tools">Installing Simulation Tools</h2>
 
