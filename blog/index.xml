@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Aug 2018 16:45:46 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://omn0mn0m.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving from Travis CI to Forestry.io</title>
+      <link>https://omn0mn0m.github.io/blog/moving-from-travis-ci-to-forestry-io/</link>
+      <pubDate>Tue, 09 Jul 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/blog/moving-from-travis-ci-to-forestry-io/</guid>
+      <description>This will be just a quick little update. As of a few minutes ago, my personal website is no longer being built using Travis CI. While I love Travis CI for continuous integration for almost all of my projects, I felt that the hoops that had to be jumped through to publish new blog posts were just too many (mainly related to creating RSA keys).
+I have since moved to Forestry.</description>
+    </item>
     
     <item>
       <title>[Python Text RPG 1] Making the Python Boilerplate</title>
