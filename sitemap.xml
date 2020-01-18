@@ -16,19 +16,24 @@
   
   <url>
     <loc>https://omn0mn0m.github.io/blog/</loc>
-    <lastmod>2019-07-09T16:00:00+00:00</lastmod>
+    <lastmod>2020-01-14T07:25:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/blog/breaking-the-chains-1/</loc>
+    <lastmod>2020-01-14T07:25:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/</loc>
+    <lastmod>2020-01-14T07:25:46-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://omn0mn0m.github.io/blog/moving-from-travis-ci-to-forestry-io/</loc>
     <lastmod>2019-07-09T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://omn0mn0m.github.io/</loc>
-    <lastmod>2019-07-09T16:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
