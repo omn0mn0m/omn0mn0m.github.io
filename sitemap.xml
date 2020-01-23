@@ -16,19 +16,24 @@
   
   <url>
     <loc>https://omn0mn0m.github.io/blog/</loc>
-    <lastmod>2020-01-19T09:25:00-05:00</lastmod>
+    <lastmod>2020-01-23T05:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/blog/breaking-the-chains-why-i-chose-firefox-back-in-2011-and-stayed/</loc>
+    <lastmod>2020-01-23T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://omn0mn0m.github.io/</loc>
+    <lastmod>2020-01-23T05:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://omn0mn0m.github.io/blog/breaking-the-chains-1/</loc>
     <lastmod>2020-01-19T09:25:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://omn0mn0m.github.io/</loc>
-    <lastmod>2020-01-19T09:25:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
