@@ -6,7 +6,7 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2020 05:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 23:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -45,6 +45,16 @@ You can download the game to try now!</description>
 ##Subsystems - Drivetrain - Vision Processor - Claw and Claw Elevator (same mechanical subsystem, treated as two separate ones in software) - Indexer (also known as tote elevator) - Intake
 ##Wiring See this Google Spreadsheet
 ##Significant New Features - Hatter Drive, which is just ChezyDrive with the namespace for anything interesting and original that we may add in the future.</description>
+    </item>
+    
+    <item>
+      <title>Breaking the Chains #3 - Taking Care of Your Online Accounts</title>
+      <link>https://omn0mn0m.github.io/blog/breaking-the-chains-3/</link>
+      <pubDate>Fri, 31 Jan 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-3/</guid>
+      <description>tl;dr Delete old accounts. Use a password manager to generate new passwords for the accounts you keep. Turn on two-factor authentication. If you really don&amp;rsquo;t care enough to secure your accounts, email me your account details (Don&amp;rsquo;t actually do this. It&amp;rsquo;s illegal).
+I got my first email address, tranngocnam97@yahoo.com, in 2011 when I bought Minecraft Alpha. Nearly a decade later, I decided it was finally time to retire the email.</description>
     </item>
     
     <item>
