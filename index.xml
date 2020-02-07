@@ -6,7 +6,7 @@
     <description>Recent content on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2020 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 04:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://omn0mn0m.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -45,6 +45,17 @@ You can download the game to try now!</description>
 ##Subsystems - Drivetrain - Vision Processor - Claw and Claw Elevator (same mechanical subsystem, treated as two separate ones in software) - Indexer (also known as tote elevator) - Intake
 ##Wiring See this Google Spreadsheet
 ##Significant New Features - Hatter Drive, which is just ChezyDrive with the namespace for anything interesting and original that we may add in the future.</description>
+    </item>
+    
+    <item>
+      <title>Breaking the Chains #4 - Annoying my Friends About Switching to Signal</title>
+      <link>https://omn0mn0m.github.io/blog/breaking-the-chains-4-annoying-my-friends-about-switching-to-signal/</link>
+      <pubDate>Fri, 07 Feb 2020 04:30:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-4-annoying-my-friends-about-switching-to-signal/</guid>
+      <description>tl;dr Download Signal as your texting/messaging app because Big Brother is watching you. Or something like that.
+Story Time For the first time ever in my life, I wore a literal tin foil hat. Let me take it back a few steps though, and tell you just what led up to this pivotal moment of my life where I became one of the crazies.
+An Experiment Last week, I walked into my housemate&amp;rsquo;s room for my weekly attempt to get him to use Signal, a messaging app that uses end-to-end encryption (message is scrambled as it travels from one phone to another, only being unscrambled on the app) when talking to other Signal users.</description>
     </item>
     
     <item>
