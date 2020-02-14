@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on Nam Tran</title>
+    <link>https://omn0mn0m.github.io/tags/privacy/</link>
+    <description>Recent content in privacy on Nam Tran</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Feb 2020 04:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://omn0mn0m.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Breaking the Chains #4 - Annoying my Friends About Switching to Signal</title>
+      <link>https://omn0mn0m.github.io/blog/breaking-the-chains-4/</link>
+      <pubDate>Fri, 07 Feb 2020 04:30:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-4/</guid>
+      <description>tl;dr Download Signal as your texting/messaging app because Big Brother is watching you. Or something like that.
+Story Time For the first time ever in my life, I wore a literal tin foil hat. Let me take it back a few steps though, and tell you just what led up to this pivotal moment of my life where I became one of the crazies.
+An Experiment Last week, I walked into my housemate&amp;rsquo;s room for my weekly attempt to get him to use Signal, a messaging app that uses end-to-end encryption (message is scrambled as it travels from one phone to another, only being unscrambled on the app) when talking to other Signal users.</description>
+    </item>
+    
+    <item>
+      <title>Breaking the Chains #1 - An Introduction</title>
+      <link>https://omn0mn0m.github.io/blog/breaking-the-chains-1/</link>
+      <pubDate>Sun, 19 Jan 2020 14:25:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-1/</guid>
+      <description>&amp;ldquo;Just because you&amp;rsquo;re paranoid doesn&amp;rsquo;t mean they aren&amp;rsquo;t after you.&amp;rdquo;
+- Joseph Heller, Catch-22
+ My New Year&amp;rsquo;s resolution for 2020 is to break the chains that have been cast upon us by tech companies. This means switching from closed, proprietary software to free and open-source software (FOSS) when possible. It also means being more mindful of who has my personal data, as well as being in as much control over my information as I can be.</description>
+    </item>
+    
+  </channel>
+</rss>
