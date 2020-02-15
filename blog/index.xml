@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Nam Tran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Feb 2020 04:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 09:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://omn0mn0m.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Breaking the Chains #5 - Switching to Free and Open-Source Software</title>
+      <link>https://omn0mn0m.github.io/blog/breaking-the-chains-5/</link>
+      <pubDate>Fri, 14 Feb 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-5/</guid>
+      <description>For anyone who has been following this series until now, the changes to my digital habits that I&amp;rsquo;ve mentioned have been relatively small. Signal behaves just like a normal texting app, and Firefox is just another web browser. For a complete discussion about how I have and will continue working on protecting my digital rights, I&amp;rsquo;m going to have to eventually talk about how I switched from using Windows to Linux as my primary operating system.</description>
+    </item>
     
     <item>
       <title>Breaking the Chains #4 - Annoying my Friends About Switching to Signal</title>
