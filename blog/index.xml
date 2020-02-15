@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Nam Tran</title>
@@ -38,7 +38,7 @@ An Experiment Last week, I walked into my housemate&amp;rsquo;s room for my week
       
       <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-3/</guid>
       <description>tl;dr Delete old accounts. Use a password manager to generate new passwords for the accounts you keep. Turn on two-factor authentication. If you really don&amp;rsquo;t care enough to secure your accounts, email me your account details (Don&amp;rsquo;t actually do this. It&amp;rsquo;s illegal).
-I got my first email address, tranngocnam97@yahoo.com, in 2011 when I bought Minecraft Alpha. Nearly a decade later, I decided it was finally time to retire the email.</description>
+I got my first email address, tranngocnam97@yahoo.com, in 2011 when I bought Minecraft Alpha. Nearly a decade later, I decided it was finally time to retire the email. One of the biggest challenges I faced when doing this was handling all the accounts that I had registered to that email over the course of a decade.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ I have since moved to Forestry.</description>
       <guid>https://omn0mn0m.github.io/blog/python-text-rpg-1/</guid>
       <description>Continuing from the previous tutorial, we&amp;rsquo;ll now be filling out skeleton files and getting ready to start writing code.
 Writing Files For the sake of time, we are going to copy-and-paste a lot in this tutorial. A short explanation of what is going on in each file will also be included.
-setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages with open(&#39;README&#39;) as f: readme = f.read() with open(&#39;LICENSE&#39;) as f: license = f.</description>
+setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages with open(&amp;#39;README&amp;#39;) as f: readme = f.read() with open(&amp;#39;LICENSE&amp;#39;) as f: license = f.</description>
     </item>
     
     <item>
@@ -118,7 +118,7 @@ That being said, they are not exactly the most friendly in terms of skills neede
       <pubDate>Tue, 24 Oct 2017 20:44:46 -0700</pubDate>
       
       <guid>https://omn0mn0m.github.io/blog/wsl/</guid>
-      <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
+      <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;lsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
 Installing X11 Server One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:</description>
     </item>
     

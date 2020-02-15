@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nam Tran</title>
@@ -18,10 +18,8 @@
       
       <guid>https://omn0mn0m.github.io/projects/jarvis/</guid>
       <description>JARVIS Repository for past JARVIS attempts and any future tries.
-Dependencies  Python 2.7 SpeechRecognition pyttsx PyAudio ChatterBot
-Optional Dependencies MongoDB
-Past Attempts This project first started at a PennApps hackathon in late 2013 where the code was written in basically two hours with minimal functionality.
-  After that, I revisited it in summer 2014 until spring 2015 for my high school graduation project. This time the emphasise was on conversationalism and the ability to answer messages on Facebook.</description>
+Dependencies  Python 2.7 SpeechRecognition pyttsx PyAudio ChatterBot  Optional Dependencies  MongoDB  Past Attempts This project first started at a PennApps hackathon in late 2013 where the code was written in basically two hours with minimal functionality.
+After that, I revisited it in summer 2014 until spring 2015 for my high school graduation project. This time the emphasise was on conversationalism and the ability to answer messages on Facebook.</description>
     </item>
     
     <item>
@@ -31,8 +29,8 @@ Past Attempts This project first started at a PennApps hackathon in late 2013 wh
       
       <guid>https://omn0mn0m.github.io/projects/hacki-hacki/</guid>
       <description>Hacki-Hacki This is a visual novel created as a demo for Hackital 2017, an MLH hackathon that took place at GWU in Washington, DC. You can view the Devpost here.
-The game was created by the following people: - Nam Tran - Developer, Writer, Background Photos - Sebastian Foubert - Developer - Brandon Waller - Writer, Character Artist - Adrian Haber - Project Manager
-You can download the game to try now!</description>
+The game was created by the following people:
+ Nam Tran - Developer, Writer, Background Photos Sebastian Foubert - Developer Brandon Waller - Writer, Character Artist Adrian Haber - Project Manager  You can download the game to try now!</description>
     </item>
     
     <item>
@@ -42,9 +40,19 @@ You can download the game to try now!</description>
       
       <guid>https://omn0mn0m.github.io/projects/robot/</guid>
       <description>FRC-2015 Software for the 2015 FRC robot, written by the Team 708 software team in Java.
-##Subsystems - Drivetrain - Vision Processor - Claw and Claw Elevator (same mechanical subsystem, treated as two separate ones in software) - Indexer (also known as tote elevator) - Intake
-##Wiring See this Google Spreadsheet
-##Significant New Features - Hatter Drive, which is just ChezyDrive with the namespace for anything interesting and original that we may add in the future.</description>
+##Subsystems
+ Drivetrain Vision Processor Claw and Claw Elevator (same mechanical subsystem, treated as two separate ones in software) Indexer (also known as tote elevator) Intake  ##Wiring See this Google Spreadsheet
+##Significant New Features
+ Hatter Drive, which is just ChezyDrive with the namespace for anything interesting and original that we may add in the future.</description>
+    </item>
+    
+    <item>
+      <title>Tranvenous Pacing Trainer</title>
+      <link>https://omn0mn0m.github.io/projects/transvenous_pacing_trainer/tranvenous-pacing-trainer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://omn0mn0m.github.io/projects/transvenous_pacing_trainer/tranvenous-pacing-trainer/</guid>
+      <description>This was my capstone project.</description>
     </item>
     
     <item>
@@ -74,7 +82,7 @@ An Experiment Last week, I walked into my housemate&amp;rsquo;s room for my week
       
       <guid>https://omn0mn0m.github.io/blog/breaking-the-chains-3/</guid>
       <description>tl;dr Delete old accounts. Use a password manager to generate new passwords for the accounts you keep. Turn on two-factor authentication. If you really don&amp;rsquo;t care enough to secure your accounts, email me your account details (Don&amp;rsquo;t actually do this. It&amp;rsquo;s illegal).
-I got my first email address, tranngocnam97@yahoo.com, in 2011 when I bought Minecraft Alpha. Nearly a decade later, I decided it was finally time to retire the email.</description>
+I got my first email address, tranngocnam97@yahoo.com, in 2011 when I bought Minecraft Alpha. Nearly a decade later, I decided it was finally time to retire the email. One of the biggest challenges I faced when doing this was handling all the accounts that I had registered to that email over the course of a decade.</description>
     </item>
     
     <item>
@@ -116,7 +124,7 @@ I have since moved to Forestry.</description>
       <guid>https://omn0mn0m.github.io/blog/python-text-rpg-1/</guid>
       <description>Continuing from the previous tutorial, we&amp;rsquo;ll now be filling out skeleton files and getting ready to start writing code.
 Writing Files For the sake of time, we are going to copy-and-paste a lot in this tutorial. A short explanation of what is going on in each file will also be included.
-setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages with open(&#39;README&#39;) as f: readme = f.read() with open(&#39;LICENSE&#39;) as f: license = f.</description>
+setup.py # -*- coding: utf-8 -*- from setuptools import setup, find_packages with open(&amp;#39;README&amp;#39;) as f: readme = f.read() with open(&amp;#39;LICENSE&amp;#39;) as f: license = f.</description>
     </item>
     
     <item>
@@ -154,7 +162,7 @@ That being said, they are not exactly the most friendly in terms of skills neede
       <pubDate>Tue, 24 Oct 2017 20:44:46 -0700</pubDate>
       
       <guid>https://omn0mn0m.github.io/blog/wsl/</guid>
-      <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;rsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
+      <description>Microsoft&amp;rsquo;s Windows Fall Creator Update was the end of Windows Subsystem for Linux (WSL)&amp;lsquo;s beta phase. As a full feature of Windows, I wanted to integrate it fully into my work environment. The primary objective for this task was to make a functional development environment with little need for leaving WSL. I chose Ubuntu from the Windows Store for my Linux distro.
 Installing X11 Server One of the first things I did was install an X11 server so I can use GUIs for the programs installed in WSL:</description>
     </item>
     

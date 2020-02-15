@@ -179,22 +179,13 @@
     </div>
     
     <div class="container markdown top-pad">
-        
-
-<p>When I first taught myself how to program, the first project suggested to me was to make a text-based RPG from scratch (no third-party libraries). At the time, I was learning Java so I could program my school&rsquo;s FRC robot so naturally the RPG was written in Java. The goal of this blog mini-series is to make yet another text-based RPG, but now in Python. For this tutorial series, I&rsquo;ll be saying what to do, then show what I typed at the end if I think you can figure it out.</p>
-
+        <p>When I first taught myself how to program, the first project suggested to me was to make a text-based RPG from scratch (no third-party libraries). At the time, I was learning Java so I could program my school&rsquo;s FRC robot so naturally the RPG was written in Java. The goal of this blog mini-series is to make yet another text-based RPG, but now in Python. For this tutorial series, I&rsquo;ll be saying what to do, then show what I typed at the end if I think you can figure it out.</p>
 <h2 id="command-line-a-primer">Command Line: A Primer</h2>
-
 <p>For this tutorial series, we will be using the command line for as many things as possible. This is because it is can be a difficult skill for many, while using a GUI is not and relatively intuitive. With that in mind, here is a VERY brief intro to using the command line. For now, it will be for Linux (I&rsquo;ll write Mac and Windows instructions later when I&rsquo;m not as lazy).</p>
-
 <h3 id="opening-the-command-line">Opening the Command Line</h3>
-
 <p>This can vary based on what Linux distro you&rsquo;re using. For Ubuntu, you can use the shortcut <code>Ctrl-Alt-t</code>.</p>
-
 <h3 id="basic-operations">Basic Operations</h3>
-
 <p>Here are some commands to get you started:</p>
-
 <ul>
 <li><code>cd type/a/directory/here</code>: Changes directory to the one you specify</li>
 <li><code>ls</code>: Prints the contents of your current directory</li>
@@ -202,62 +193,45 @@
 <li><code>touch file-to.create</code>: Creates an empty file</li>
 <li><code>rm file-to.delete</code>: Deletes the file you specify. You can delete entire folders like: <code>rm -r type/a/directory/here</code>.</li>
 </ul>
-
 <h2 id="installing-some-software">Installing Some Software</h2>
-
 <p>You need to install the following software for this tutorial series to get started. We&rsquo;ll add more software as it all becomes relevant.</p>
-
 <ul>
 <li>Git: <code>sudo apt-get install git</code></li>
 <li>Make: <code>sudo apt-get install build-essential</code></li>
 <li>Pip: <code>sudo apt-get install python3-pip</code></li>
 </ul>
-
 <p>Most Linux distros come with Python already installed.</p>
-
 <h2 id="setting-up-github">Setting Up GitHub</h2>
-
 <p>The first step to take (and one I didn&rsquo;t know back then) is to set up version control for your project. So <a href="https://github.com/signup">create a GitHub account</a> and make a <a href="https://github.com/new">new repository</a>. I&rsquo;m naming the repo &ldquo;Dungeon-Crawler-2&rdquo;. Leave it public since that&rsquo;s free.</p>
-
 <p>Feel free to initialise the repo with a README, .gitignore, and LICENSE. I am choosing &ldquo;Python&rdquo; for the .gitignore and &ldquo;GNU General Public License v3.0&rdquo; for the license.</p>
-
 <p>Next, you&rsquo;ll want to clone your repository. This just means downloading a local copy that you can upload back to GitHub with your new changes later. Because we aren&rsquo;t scrubs, we&rsquo;ll be downloading the <a href="https://git-scm.com/downloads">command-line tool</a>.</p>
-
 <p>Once it is installed, type the following <code>git clone https://github.com/&lt;TYPE YOUR USErNAME HERE&gt;/&lt;TYPE YOUR REPO NAME HERE&gt;.git</code></p>
-
 <p>Don&rsquo;t copy and paste the above command, type it out and fill in the areas where it tells you to type stuff.</p>
-
 <p>You should now have a directory on your computer named the same as your GitHub repo name.</p>
-
 <h2 id="setting-up-an-incomplete-project-skeleton">Setting Up An Incomplete Project Skeleton</h2>
-
 <p>First, change your directory to your git repo you just made. The following is an adaptation of <a href="https://docs.python-guide.org/writing/structure/#further-reading">this structure guide</a>.</p>
-
-<p>Next, you need to make the following directories:
-- docs
-- dungeoncrawler2
-- tests</p>
-
-<p>Now make the following files:
-- setup.py
-- requirements.txt
-- Makefile
-- dungeoncrawler2/<strong>init</strong>.py
-- dungeoncrawler2/dungeoncrawler2.py
-- docs/conf.py
-- docs/index.rst
-- tests/test_dungeoncrawler2.py</p>
-
+<p>Next, you need to make the following directories:</p>
+<ul>
+<li>docs</li>
+<li>dungeoncrawler2</li>
+<li>tests</li>
+</ul>
+<p>Now make the following files:</p>
+<ul>
+<li>setup.py</li>
+<li>requirements.txt</li>
+<li>Makefile</li>
+<li>dungeoncrawler2/<strong>init</strong>.py</li>
+<li>dungeoncrawler2/dungeoncrawler2.py</li>
+<li>docs/conf.py</li>
+<li>docs/index.rst</li>
+<li>tests/test_dungeoncrawler2.py</li>
+</ul>
 <p>Add every new file for tracking with <code>git add --all</code>.</p>
-
 <p>Then make a commit for the series of changes you made with <code>git commit -am &quot;Initial commit&quot;</code>.</p>
-
 <p>Finally, push your changes with <code>git push</code>.</p>
-
 <p>That&rsquo;s it for this first tutorial. Next tutorial, we&rsquo;ll be filling in the files in our project skeleton and setting up our development environment!</p>
-
 <h3 id="cheats">Cheats</h3>
-
 <ul>
 <li>Changing directory to your git repo: <code>cd &lt;TYPE YOUR REPO NAME HERE&gt;</code></li>
 <li>Making the directories (just the first one, you should be able to figure it out from there: <code>mkdir docs</code></li>
@@ -299,7 +273,7 @@
         
 
 
-<script src="https://omn0mn0m.github.io/js/bundle.baa2874a80b328e7dec720d3a90efc6efd25ccdf1611f37d9571354e88987590.js" integrity="sha256-uqKHSoCzKOfexyDTqQ78bv0lzN8WEfN9lXE1ToiYdZA="></script>
+<script src="https://omn0mn0m.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
 
 
 

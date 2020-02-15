@@ -179,93 +179,54 @@ How-To: Icestorm Installation in WSL - Nam Tran
     </div>
     
     <div class="container markdown top-pad">
-        
-
-<p>As mentioned in my <a href="/blog/calm-before-the-icestorm/">previous post</a>, I will be spending some time to explore using the open-source <a href="http://www.clifford.at/icestorm/">Project Icestorm</a> toolchain in the Windows Linux Subsystem (WSL). This is how I was able to set up the tools on my computer, prior to any testing on an actual FPGA board&hellip; I am still waiting to purchase one.</p>
-
+        <p>As mentioned in my <a href="/blog/calm-before-the-icestorm/">previous post</a>, I will be spending some time to explore using the open-source <a href="http://www.clifford.at/icestorm/">Project Icestorm</a> toolchain in the Windows Linux Subsystem (WSL). This is how I was able to set up the tools on my computer, prior to any testing on an actual FPGA board&hellip; I am still waiting to purchase one.</p>
 <p>These instructions are based on those listed under &ldquo;Where are the Tools? How to Install?&rdquo; on the Project Icestorm website. I am writing this blog post as I am installing the tools so that they are as accurate as possible.</p>
-
 <p>EDIT 01-23-19: Replaced Arachne-PNR installation instructions with NextPNR.</p>
-
 <h2 id="installing-prerequisites">Installing Prerequisites</h2>
-
 <p>First, I installed all the Ubuntu prerequisites using the command mentioned in the installation instructions.</p>
-
-<pre><code class="language-bash">sudo apt-get install build-essential clang cmake bison flex libreadline-dev \
-                     gawk tcl-dev libffi-dev git mercurial graphviz   \
-                     xdot pkg-config python python3 libftdi-dev \
-                     qt5-default python3-dev libboost-all-dev
-</code></pre>
-
-<p>While the command above is noted for Ubuntu 14.04, everythings still works fine with Ubuntu 16.04 (version default with WSL). The command should execute without any errors.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install build-essential clang cmake bison flex libreadline-dev <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>                     gawk tcl-dev libffi-dev git mercurial graphviz   <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>                     xdot pkg-config python python3 libftdi-dev <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>                     qt5-default python3-dev libboost-all-dev
+</code></pre></div><p>While the command above is noted for Ubuntu 14.04, everythings still works fine with Ubuntu 16.04 (version default with WSL). The command should execute without any errors.</p>
 <h2 id="installing-icestorm-tools">Installing Icestorm Tools</h2>
-
 <p>These tools are the main design tools for Project Icestorm.</p>
-
 <p>The command is copied and pasted from the Project Icestorm website:</p>
-
-<pre><code class="language-bash">git clone https://github.com/cliffordwolf/icestorm.git icestorm
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/cliffordwolf/icestorm.git icestorm
 cd icestorm
-make -j$(nproc)
+make -j<span style="color:#66d9ef">$(</span>nproc<span style="color:#66d9ef">)</span>
 sudo make install
-</code></pre>
-
-<p>This also seems to work without any issues.</p>
-
+</code></pre></div><p>This also seems to work without any issues.</p>
 <h2 id="installing-yosys">Installing Yosys</h2>
-
 <p>This is the synthesis tool for Project Icestorm, and only is compatible with Verilog. The synthesis process converts the hardware-description language (Verilog) into a gate-level netlist. Yosys is meant for Verilog, but there is a VHDL front-end <a href="https://github.com/cliffordwolf/yosys-plugins/tree/master/vhdl">available</a>. I may try to tackle installing it in the future, as I have become more comfortable with VHDL than Verilog.</p>
-
 <p>Like last time, we used the command from the Project Icestorm website:</p>
-
-<pre><code class="language-bash">git clone https://github.com/cliffordwolf/yosys.git yosys
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/cliffordwolf/yosys.git yosys
 cd yosys
-make -j$(nproc)
+make -j<span style="color:#66d9ef">$(</span>nproc<span style="color:#66d9ef">)</span>
 sudo make install
-</code></pre>
-
-<p>Once again, there seems to be no issues. Things are looking promising.</p>
-
+</code></pre></div><p>Once again, there seems to be no issues. Things are looking promising.</p>
 <h2 id="installing-nextpnr">Installing NextPNR</h2>
-
 <p>This is the new place-and-route tool for Project Icestorm, replacing Arachne-PNR. In FPGA design, place-and-route describes the process of converting a design into its implementation.</p>
-
 <p>This should be no surprise: Run the command from the Project Icestorm website.</p>
-
-<pre><code class="language-bash">git clone https://github.com/YosysHQ/nextpnr nextpnr
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/YosysHQ/nextpnr nextpnr
 cd nextpnr
-cmake -DARCH=ice40 -DCMAKE_INSTALL_PREFIX=/usr/local .
-make -j$(nproc)
+cmake -DARCH<span style="color:#f92672">=</span>ice40 -DCMAKE_INSTALL_PREFIX<span style="color:#f92672">=</span>/usr/local .
+make -j<span style="color:#66d9ef">$(</span>nproc<span style="color:#66d9ef">)</span>
 sudo make install
-</code></pre>
-
-<p>There are a few dependencies needed to successfully build NextPNR that I was missing. After installing them, everything built correctly. These were included in the pre-requisite command.</p>
-
+</code></pre></div><p>There are a few dependencies needed to successfully build NextPNR that I was missing. After installing them, everything built correctly. These were included in the pre-requisite command.</p>
 <h2 id="installing-simulation-tools">Installing Simulation Tools</h2>
-
 <p>For simulations, I used Icarus Verilog. At first, I tried to use Yosys, but came across issues because Yosys only implements the synthesisable language features of Verilog. For viewing the output file, I open the file in GTKWave.</p>
-
 <p>To install Icarus Verilog, run the following command: <code>sudo apt-get install iverilog</code></p>
-
 <p>To install GTKWave, run the following command: <code>sudo apt-get install gtkwave</code></p>
-
 <p>To run GTKWave, just type <code>gtkwave</code> in the shell and import your waveform through the GUI.</p>
-
 <h2 id="getting-a-template">Getting a Template</h2>
-
 <p>For now, clone my template project in a directory and run it.</p>
-
-<pre><code class="language-bash">git clone https://github.com/omn0mn0m/FPGA-Icestorm-Template.git
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/omn0mn0m/FPGA-Icestorm-Template.git
 cd FPGA-Icestorm-Template
 make
 make sim
-</code></pre>
-
-<p>If everything worked out, the synthesis and place-and-route should have worked without error. You should also be seeing a GTKWave window that you can add waveforms to.</p>
-
+</code></pre></div><p>If everything worked out, the synthesis and place-and-route should have worked without error. You should also be seeing a GTKWave window that you can add waveforms to.</p>
 <h2 id="conclusion">Conclusion</h2>
-
 <p>After installing the Project Icestorm tools, it seems to be a painless and easy-to-do process. Without any sort of FPGA to test with, I am unable to determine if the tools have installed correctly. Hopefully this blog post will help build the confidence of someone who does and happens to be developing in WSL.</p>
 
     </div>
@@ -304,7 +265,7 @@ make sim
         
 
 
-<script src="https://omn0mn0m.github.io/js/bundle.baa2874a80b328e7dec720d3a90efc6efd25ccdf1611f37d9571354e88987590.js" integrity="sha256-uqKHSoCzKOfexyDTqQ78bv0lzN8WEfN9lXE1ToiYdZA="></script>
+<script src="https://omn0mn0m.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
 
 
 

@@ -179,42 +179,33 @@
     </div>
     
     <div class="container markdown top-pad">
-        
-
-<p>Continuing from the previous tutorial, we&rsquo;ll now be filling out skeleton files and getting ready to start writing code.</p>
-
+        <p>Continuing from the previous tutorial, we&rsquo;ll now be filling out skeleton files and getting ready to start writing code.</p>
 <h2 id="writing-files">Writing Files</h2>
-
 <p>For the sake of time, we are going to copy-and-paste a lot in this tutorial. A short explanation of what is going on in each file will also be included.</p>
+<h3 id="setuppy">setup.py</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># -*- coding: utf-8 -*-</span>
 
-<h3 id="setup-py">setup.py</h3>
-
-<pre><code class="language-python"># -*- coding: utf-8 -*-
-
-from setuptools import setup, find_packages
+<span style="color:#f92672">from</span> setuptools <span style="color:#f92672">import</span> setup, find_packages
 
 
-with open('README') as f:
-    readme = f.read()
+<span style="color:#66d9ef">with</span> open(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">README</span><span style="color:#e6db74">&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    readme <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()
 
-with open('LICENSE') as f:
-    license = f.read()
+<span style="color:#66d9ef">with</span> open(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">LICENSE</span><span style="color:#e6db74">&#39;</span>) <span style="color:#66d9ef">as</span> f:
+    license <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()
 
 setup(
-    name='dungeoncrawler2',
-    version='0.1.0',
-    description='A text-based RPG written in Python 3',
-    long_description=readme,
-    author='Nam Tran',
-    author_email='tranngocnam97@gmail.com',
-    url='https://github.com/omn0mn0m/Dungeon-Crawler-2',
-    license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    name<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">dungeoncrawler2</span><span style="color:#e6db74">&#39;</span>,
+    version<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">0.1.0</span><span style="color:#e6db74">&#39;</span>,
+    description<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A text-based RPG written in Python 3</span><span style="color:#e6db74">&#39;</span>,
+    long_description<span style="color:#f92672">=</span>readme,
+    author<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Nam Tran</span><span style="color:#e6db74">&#39;</span>,
+    author_email<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">tranngocnam97@gmail.com</span><span style="color:#e6db74">&#39;</span>,
+    url<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">https://github.com/omn0mn0m/Dungeon-Crawler-2</span><span style="color:#e6db74">&#39;</span>,
+    license<span style="color:#f92672">=</span>license,
+    packages<span style="color:#f92672">=</span>find_packages(exclude<span style="color:#f92672">=</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">tests</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">docs</span><span style="color:#e6db74">&#39;</span>))
 )
-</code></pre>
-
-<h3 id="makefile">Makefile</h3>
-
+</code></pre></div><h3 id="makefile">Makefile</h3>
 <pre><code>init:
 	pip3 install -r requirements.txt
 
@@ -222,22 +213,13 @@ test:
 	python3 -m pytest --cov=dungeoncrawler2
 
 .PHONY: init test
-</code></pre>
-
-<p>Now would be a good time to note that I use pip3 and python3 in my Makefile. If you only have Python 3 installed, you can use pip and python, respectively.</p>
-
+</code></pre><p>Now would be a good time to note that I use pip3 and python3 in my Makefile. If you only have Python 3 installed, you can use pip and python, respectively.</p>
 <h2 id="setting-up-virtualenv">Setting Up virtualenv</h2>
-
 <p>virtualenv is a Python package for creating isolated development environments for each Python project you are working on. To use it, first you have to install it: <code>pip3 install virtualenv</code></p>
-
 <p>Now within your project root directory, type <code>virtualenv -p /usr/bin/python3.6 venv</code></p>
-
 <p>From now on, any time you want to program you need to first run <code>source venv/bin/activate</code> in your project root. When you are done with the virtual environment, run <code>deactivate</code></p>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>What we have completed is created most of the environment necessary for starting to write our code. You should be good to commit and push everything to GitHub.</p>
-
 <p>If you have been paying close attention, you should have noticed we haven&rsquo;t done anything to the docs directory. That&rsquo;s for a later tutorial. For now, we just set up the files necessary to start coding. In next tutorial, we&rsquo;ll start writing some Python!</p>
 
     </div>
@@ -276,7 +258,7 @@ test:
         
 
 
-<script src="https://omn0mn0m.github.io/js/bundle.baa2874a80b328e7dec720d3a90efc6efd25ccdf1611f37d9571354e88987590.js" integrity="sha256-uqKHSoCzKOfexyDTqQ78bv0lzN8WEfN9lXE1ToiYdZA="></script>
+<script src="https://omn0mn0m.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
 
 
 
