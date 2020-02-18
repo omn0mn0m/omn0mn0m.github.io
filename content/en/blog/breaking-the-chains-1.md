@@ -34,3 +34,4 @@ If you're reading this because you are just as tired as I am of tech companies o
 * [Switching to Firefox](https://omn0mn0m.github.io/blog/breaking-the-chains-2/)
 * [Securing/Deleting Your Accounts](https://omn0mn0m.github.io/blog/breaking-the-chains-3/)
 * [Switching to Signal](https://omn0mn0m.github.io/blog/breaking-the-chains-4/)
+* [Switching to Free and Open-Source Software](https://omn0mn0m.github.io/blog/breaking-the-chains-5/)
