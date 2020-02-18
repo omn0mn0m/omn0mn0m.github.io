@@ -1,0 +1,4 @@
+$(document).ready(function() {
+    var time = moment().tz("America/New_York").format("h:mm A");
+    $("#time").html(time);
+})
