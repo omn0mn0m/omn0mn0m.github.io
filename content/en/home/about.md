@@ -1,7 +1,7 @@
 ---
-title: About
-image: profile.jpg
-weight: "0"
+title: "About"
+image: "profile.jpg"
+weight: 8
 
 ---
 I am a recent undergraduate with a Bachelor of Science in Biomedical Engineering with a minor in Computer Engineering from The George Washington University. Some of my areas of interest include embedded control systems, digital design, video game designs, and medicine. Currently, I am trying to figure out my life.
