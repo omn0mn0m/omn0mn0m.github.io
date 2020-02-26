@@ -4,6 +4,8 @@ date: 2020-02-26T14:25:00.000+00:00
 tags:
 - privacy
 ---
+**tl;dr** I'm getting off Facebook. Scroll to the bottom for other ways to reach me.
+
 In four days, I will be deleting my Facebook as part of my year-long journey in taking back what little digital privacy I still can. As with all privacy and security related topics for my New Year's resolution, there has to be a blog post about it so that people can follow along on their own journey.
 
 # Why Leave Facebook
