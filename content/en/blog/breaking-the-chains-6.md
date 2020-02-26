@@ -1,5 +1,5 @@
 ---
-title: 'Breaking the Chains #5 - Goodbye, Facebook'
+title: 'Breaking the Chains #6 - Goodbye, Facebook'
 date: 2020-02-26T14:25:00.000+00:00
 tags:
 - privacy
