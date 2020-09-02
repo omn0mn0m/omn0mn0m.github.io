@@ -42,7 +42,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon  = "twitter" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://linkedin.com/in/tranngocnam/"
+        url   = "https://www.linkedin.com/in/omn0mn0m/"
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
