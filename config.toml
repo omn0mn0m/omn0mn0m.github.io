@@ -84,7 +84,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         title            = "Nam Tran"
         [languages.en.params]
             description  = "Trying to do the typing thing..."   # Max 160 characters show in search results
-            footerText   = "Copyright 2019 Nam Tran"                     # Text to override default footer text (markdown allowed)
+            footerText   = "Copyright 2020 Nam Tran"                     # Text to override default footer text (markdown allowed)
 
 #     [languages.es]
 #         languageName     = "Español"
