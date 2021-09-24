@@ -1,0 +1,112 @@
+html
+    background-color: $background
+    color: $primary
+    font-size: 18px;
+    font-family: "Arial", sans-serif
+
+body
+    margin: 0
+
+.main
+    margin-top: $navbar-height
+    padding: 2em 6em
+
+h1, h2, h3, h4, h5
+    margin: 0
+
+    a
+        text-decoration: none
+
+h1
+    font-size: 3rem
+
+h2
+    font-size: 2.5rem
+
+h3
+    font-size: 2rem
+
+h4
+    font-size: 1.5rem
+
+h5
+    font-size: 1rem
+
+.post-content
+    h1
+        font-size: 2rem
+
+    h2
+        font-size: 1.5rem
+
+    h3
+        font-size: 1rem
+
+    h4
+        font-size: 0.5rem
+
+section
+    padding: 1rem
+    scroll-margin-top: 2em
+
+.section-header
+    margin: 16px
+
+a
+    color: $secondary
+
+.text-center
+    text-align: center
+
+.navbar
+    background-color: $secondary
+    width: 100%
+    height: $navbar-height
+    top: 0
+    position: fixed
+
+    a
+        color: $primary
+        text-decoration: none
+
+    ul
+        list-style-type: none
+
+    li
+        display: inline
+        padding: 0 1em
+    
+
+/* Homepage */
+.hero
+    width: 100vw
+    max-width: 100%
+    height: calc(100vh - #{$navbar-height} - 2em)
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.hero-title
+    font-size: 4rem
+
+.hero-subtitle
+    margin-top: 16px
+    font-size: 18px
+
+.project-display
+    display: flex
+    flex-wrap: wrap
+    gap: 8px
+    justify-content: center
+    align-items: center
+    width: 100%
+
+.project-card
+    min-width: 302px
+    width: 33%
+    text-align: center
+
+.project-title
+    padding: 0.25em
