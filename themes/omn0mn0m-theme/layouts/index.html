@@ -6,6 +6,7 @@
   <div class='hero-subtitle'>
     <h3 class='text-center'>{{ .Site.Params.Tagline }}</h3>
   </div>
+  {{ partial "social-media.html" }}
 </div>
 
 <hr>
@@ -76,6 +77,8 @@
     <h2 class='text-center section-header'>Contact</h2>
 
     {{ .Content }}
+
+    {{ partial "social-media.html" }}
   <div>
 </section>
 {{ end }}
