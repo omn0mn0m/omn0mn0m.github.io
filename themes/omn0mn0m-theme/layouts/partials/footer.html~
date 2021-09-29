@@ -1,3 +1,0 @@
-<footer>
-  <p>Copyright (c) {{now.Format "2006"}} Nam Tran</p>
-</footer>
