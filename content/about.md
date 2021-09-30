@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: "profile.png"
+image: "/img/profile.png"
 weight: 8
 ---
 I am a first-year medical student at Penn State just trying to stay afloat. At the moment, I am undecided on a specialty, but I am leaning towards emergency medicine or surgery. My past medical experiences includes volunteering as an emergency medical technician and training as an emergency department technician.

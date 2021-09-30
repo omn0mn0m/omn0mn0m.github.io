@@ -1,13 +1,19 @@
-baseURL                          = "https://omn0mn0m.com/"  # Your domain name. Must end with "/"
-theme                            = "hugo-theme-omn0mn0m"
-DefaultContentLanguage           = "en"                     # Default language for multilingual sites
-title = "Nam Tran"
-# disqusshortname                 = ""                      # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                      # https://gohugo.io/templates/internal/#google-analytics
-ignoreFiles = [ "\\.#" ]
+baseURL                 = "https://omn0mn0m.com/"  # Your domain name. Must end with "/"
+theme                   = "hugo-theme-omn0mn0m"
+DefaultContentLanguage  = "en"                     # Default language for multilingual sites
+# Metadata
+title                   = "Nam Tran"
+
+
+
+# disqusshortname        = ""                      # https://gohugo.io/content-management/comments
+# googleAnalytics        = ""                      # https://gohugo.io/templates/internal/#google-analytics
+ignoreFiles             = [ "\\.#" ]
 
 [permalinks]
-  blog = '/:filename/'
+  blog                  = '/:filename/'
 
 [params]
-  tagline = 'Student. Mentor. EMT. Swag.'
+  description             = 'Engineer LARPing as a medical student.'
+  tagline                 = 'Engineer LARPing as a Med Student'
+  images                  = ['/img/profile.png']
