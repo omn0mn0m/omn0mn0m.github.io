@@ -1,5 +1,5 @@
 ---
-title: "WordPress: First Blog, An Explanation"
+title: "WordPress: Learning Python the Hard Way"
 date: 2016-09-29T07:15:46-07:00
 draft: false
 ---
