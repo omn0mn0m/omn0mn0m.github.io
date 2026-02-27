@@ -2,7 +2,7 @@ baseURL                 = "https://omn0mn0m.com/"  # Your domain name. Must end 
 theme                   = "hugo-theme-omn0mn0m"
 DefaultContentLanguage  = "en"                     # Default language for multilingual sites
 # Metadata
-title                   = "Nam Tran"
+title                   = "omn0mn0m"
 
 
 
